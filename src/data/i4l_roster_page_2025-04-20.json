@@ -1,0 +1,74 @@
+[
+  {
+    "roster": "Nova Syndicate",
+    "member": "Ethan \"Galactic Catalyst\"",
+    "role": "leader",
+    "bio": "charismatic leader, guides the group with a blend of charm and confidence. His leadership style is nurturing, fostering a warm and welcoming atmosphere within the group.",
+    "debut_year": "2024",
+    "image_url": "https://public-images.campanell.workers.dev/ethansq.webp",
+    "color_theme": "yellow-300"
+  },
+  {
+    "roster": "Nova Syndicate",
+    "member": "Owen \"Solar Surge\"",
+    "role": "rapper/vocalist",
+    "bio": "the main rapper and also contributes as a vocalist. His cute and catchy rap verses, combined with his melodic vocals, create a delightful balance in the group's musicality.",
+    "debut_year": "2024",
+    "image_url": "https://public-images.campanell.workers.dev/owensq.webp",
+    "color_theme": "sky-300"
+  },
+  {
+    "roster": "Nova Syndicate",
+    "member": "Mason \"Lunar Serenade\"",
+    "role": "vocalist/dancer",
+    "bio": "the soulful vocalist, adding a sweet and emotive touch to the group's songs. His adorable stage presence, coupled with his dance moves, contributes to the group's lovable image.",
+    "debut_year": "2024",
+    "image_url": "https://public-images.campanell.workers.dev/masonsq.webp",
+    "color_theme": "red-500"
+  },
+  {
+    "roster": "Nova Syndicate",
+    "member": "Liam \"Cosmic Energy\"",
+    "role": "dancer",
+    "bio": "the main dancer, infusing their performances with adorable yet precise hip hop dance moves. His energy is infectious, adding a lively dynamic to Nova Syndicate.",
+    "debut_year": "2024",
+    "image_url": "https://public-images.campanell.workers.dev/liamsq.webp",
+    "color_theme": "pink-200"
+  },
+  {
+    "roster": "Nova Syndicate",
+    "member": "Noah \"Nebula Beat\"",
+    "role": "all-rounder",
+    "bio": "the all-rounder, showcases his talents in gymnastics and hip hop dance with a cute and endearing flair. His flexibility and energetic performances enhance the overall charm of Nova Syndicate.",
+    "debut_year": "2024",
+    "image_url": "https://public-images.campanell.workers.dev/noahsq.webp",
+    "color_theme": "zinc-200"
+  },
+  {
+    "roster": "Pixie and AR",
+    "member": "Pixie",
+    "role": "DJ / singer / piano",
+    "bio": "Pixie, with her light blue hair and pink-tipped ends, is the embodiment of sweetness and charm.  Her gentle presence and the melodic undertones in her DJ sets create an enchanting atmosphere. She's seen as the one who brings a touch of elegance to their performances.  When she is at home, she enjoys playing the piano.",
+    "debut_year": "2021",
+    "image_url": "https://public-images.campanell.workers.dev/pixiesq.webp",
+    "color_theme": "blue-300"
+  },
+  {
+    "roster": "Pixie and AR",
+    "member": "AR",
+    "role": "DJ / singer / athlete",
+    "bio": "AR, with her vibrant pink hair and athletic prowess, discovered electronic music through her love for sports. While training for tennis and golf, she found that electronic beats fueled her workouts and energized her performances. This led her to explore DJing as a way to express her dynamic and energetic personality.",
+    "debut_year": "2021",
+    "image_url": "https://public-images.campanell.workers.dev/ARsq.webp",
+    "color_theme": "pink-500"
+  },
+  {
+    "roster": "Imperial Princess",
+    "member": "Imperial Princess",
+    "role": "princess",
+    "bio": "Imperial Princess is a concept.  It tells stories about life behind the walls of the Imperial Palace during the various imperial eras throughout Asia. These stories are told through the eyes of the princesses who reside in the palace.",
+    "debut_year": "2023",
+    "image_url": "https://public-images.campanell.workers.dev/ipsq.webp",
+    "color_theme": "slate-300"
+  }
+]

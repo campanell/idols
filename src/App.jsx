@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './pages/About'
+import Roster from './pages/Roster';
 import Header from './components/Header'
 import './index.css'
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/about" element={<About />} />
+        <Route path="/roster" element={<Roster />} />
         {/* Add more <Route> entries here for other pages */}
       </Routes>
     </Router>
