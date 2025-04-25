@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import videoData from "../data/i4l_publish_test_2025-04-23.json";
+import videoData from "../data/i4l_publish.json";
 
 const today = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
 const CLOUDFLARE_STREAM_DOMAIN = "customer-wj5hu7dmirmsu74s.cloudflarestream.com";
@@ -14,6 +14,7 @@ const VideoPlayer = ({ videoId }) => {
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Cloudflare Stream Video Player"
+      loading="lazy"
     />
   );
 };
