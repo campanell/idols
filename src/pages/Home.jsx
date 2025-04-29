@@ -57,6 +57,7 @@ export default function Home() {
                 <div><strong>{video.roster_idol}</strong> </div>
                 <div><strong>Title:</strong> {video.song_title}</div>
                 <div><strong>Publish Date:</strong> {video.publish_date}</div>
+                <div><strong>Language:</strong> {video.language}</div>
               </div>
             </div>
           );
