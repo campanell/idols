@@ -1,0 +1,26 @@
+/* Blog-specific styles */
+.prose p {
+  white-space: pre-line;
+  margin-bottom: 1.5em;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* Style for lists in blog content */
+.prose ul {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+/* Style for links in blog content */
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+} 

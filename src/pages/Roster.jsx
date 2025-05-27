@@ -21,24 +21,21 @@ export default function Roster() {
             {rosterName}
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {members.map(({ member, role, bio, image_url, color_theme }) => {
-              const borderColorClass = getBorderColorClass(color_theme);
-              return (
-                <div
-                  key={member}
-                  className={`rounded-xl p-4 shadow-md bg-white border-2 ${borderColorClass}`}
-                >
-                  <img
-                    src={image_url}
-                    alt={member}
-                    className="w-full h-60 object-cover rounded-md mb-4"
-                  />
-                  <h3 className="text-xl font-semibold text-gray-900">{member}</h3>
-                  <p className="text-sm text-gray-600 italic">{role}</p>
-                  <p className="text-sm text-gray-800 mt-2">{bio}</p>
-                </div>
-              );
-            })}
+            {members.map(({ member, role, bio, image_url, color_theme }) => (
+              <div
+                key={member}
+                className={`rounded-xl p-4 shadow-md bg-white border-2 border-${color_theme}`}
+              >
+                <img
+                  src={image_url}
+                  alt={member}
+                  className="w-full h-60 object-cover rounded-md mb-4"
+                />
+                <h3 className="text-xl font-semibold text-gray-900">{member}</h3>
+                <p className="text-sm text-gray-600 italic">{role}</p>
+                <p className="text-sm text-gray-800 mt-2">{bio}</p>
+              </div>
+            ))}
           </div>
         </section>
       ))}

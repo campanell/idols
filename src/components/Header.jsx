@@ -29,6 +29,7 @@ export default function Header() {
           <a href="/" className="block hover:text-pink-700">Home</a>
           <a href="/about" className="block hover:text-pink-700">About</a>
           <a href="/roster" className="block hover:text-pink-700">Roster</a>
+          <a href="/blog" className="block hover:text-pink-700">Blog</a>
         </nav>
       )}
     </header>

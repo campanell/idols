@@ -1,12 +1,49 @@
-# React + Vite
+# IDOLS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application for managing and displaying idol information, built with Vite and modern web technologies.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+idols/
+├── src/
+│   ├── assets/      # Static assets and images
+│   ├── components/  # Reusable React components
+│   ├── data/        # Data files and configurations
+│   ├── pages/       # Page components
+│   ├── App.jsx      # Main application component
+│   └── main.jsx     # Application entry point
+├── public/          # Public static files
+└── ...config files
+```
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite for fast development and building
+- Tailwind CSS for styling
+- ESLint for code quality
+- Git for version control
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Development
+
+- The project uses Vite for fast development with HMR (Hot Module Replacement)
+- ESLint is configured for code quality
+- Tailwind CSS is set up for styling
+
+## Project Notes
+
+- Main data is stored in `src/data/i4l_publish.json`
+- Components are organized in the `src/components` directory
+- Page components are in the `src/pages` directory
