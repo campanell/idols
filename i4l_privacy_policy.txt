@@ -1,0 +1,104 @@
+Privacy Policy
+
+Effective Date: March 1, 2025
+
+This Privacy Policy describes how I4L Creative Studio (“we,” “us,” or “our”) collects, uses, and protects your information when you visit idols4life.com (the “Site”).
+
+We are committed to protecting your privacy and maintaining transparency about how your data is handled. This policy applies to all visitors and members of idols4life.com, including those who subscribe to the Founder's Circle membership.
+
+By using the Site, you agree to the terms of this Privacy Policy.
+
+## 1. Information We Collect
+
+We do **not** collect personal information from visitors who simply browse or view content on idols4life.com.
+
+We only collect limited personal information from individuals who subscribe to the **Founder's Circle** membership. This information is collected and stored by our payment provider, **Stripe**, and may include:
+- Email address
+- Phone number (if provided during checkout)
+
+We do **not** store or manage this information directly on idols4life.com.
+
+Stripe securely handles all payment data and operates under its own Privacy Policy and terms. You can learn more about Stripe’s data practices by visiting: https://stripe.com/privacy
+
+We do **not** use cookies, tracking pixels, or third-party marketing analytics tools on idols4life.com.
+
+However, our infrastructure provider, **Cloudflare**, collects basic technical data (such as IP addresses and browser types) as part of their standard security and performance analytics. We use this information only to help maintain the stability and safety of the Site.
+
+## 2. How We Use Your Information
+
+We use the limited personal information collected through Stripe (such as your email address) only for the following purposes:
+- To confirm your Founder's Circle membership;
+- To send you a welcome email and provide access to membership-related updates or content;
+- To respond to any inquiries you make directly.
+
+We do **not** use your information for advertising, profiling, or third-party marketing.
+
+In addition, technical data collected by **Cloudflare** is used strictly for:
+- Monitoring site performance;
+- Preventing spam, fraud, or malicious activity;
+- Ensuring the security and reliability of the Site.
+
+We do not combine or associate Cloudflare analytics with individual user identities.
+
+## 3. Information Sharing and Disclosure
+
+We do **not** sell, rent, or share your personal information with third parties for marketing or advertising purposes.
+
+We may share limited information only under the following circumstances:
+- **With our payment provider (Stripe)**: Your email and phone number (if provided) are securely handled by Stripe to process your Founder's Circle membership.
+- **With infrastructure providers (e.g., Cloudflare)**: Technical data (such as IP addresses or browser headers) may be processed for the purpose of maintaining site security and performance.
+- **When required by law**: We may disclose information if legally required to do so — for example, in response to a court order, subpoena, or other legal process.
+
+We do not otherwise distribute or disclose your data, and we do not use third-party trackers, ad networks, or analytics platforms.
+
+## 4. Data Security
+
+We take reasonable measures to protect the security of your information.
+
+Personal information you provide during the Founder's Circle checkout process is collected and stored securely by **Stripe**, a trusted third-party payment processor that complies with leading industry standards, including PCI-DSS.
+
+We do **not** store sensitive personal data or payment details directly on idols4life.com.
+
+In addition:
+- Our website infrastructure is protected by **Cloudflare**, which helps prevent malicious traffic and maintain uptime;
+- We do not operate a user database or authentication system at this time;
+- We do not store login credentials, passwords, or user profiles.
+
+While no system can guarantee complete security, we strive to minimize risk by collecting very little data and using established service providers for all sensitive operations.
+
+## 5. Data Retention
+
+idols4life.com does **not** operate any servers or maintain its own data storage. The platform is built on a **serverless infrastructure provided by Cloudflare**.
+
+We do not store personal data on our site. Any personal information related to your Founder's Circle membership — such as your email address or phone number — is collected and stored securely by **Stripe**, our payment processor.
+
+We retain access to Stripe's records of your subscription status (e.g., active, canceled) only as long as necessary to:
+- Communicate with you about your membership,
+- Comply with applicable legal or tax obligations,
+- Resolve disputes, or
+- Enforce our Terms of Service.
+
+If you cancel your Founder's Circle membership, we no longer receive updates from Stripe about your account, and we do not use or store your contact details.
+
+## 6. Your Rights and Choices
+
+As a member or visitor of idols4life.com, you have choices and rights regarding your personal information.
+
+### If you are a Founder's Circle member:
+- You can **update or cancel your subscription** at any time via the Stripe-managed subscription page linked in your welcome email.
+- If you would like to **request deletion of your membership data**, please contact us at [insert contact email], and we will coordinate with Stripe to process your request, subject to any legal or tax-related retention requirements.
+
+### If you are a site visitor:
+- We do not collect personal data from casual browsing, and we do not use cookies or tracking tools — so there is no personal profile to delete or manage.
+
+We do not send marketing emails, and you will only be contacted for essential membership-related communication if you are part of the Founder's Circle.
+
+If you have questions or concerns about your privacy, feel free to reach out to us anytime at [insert contact email].
+
+## 7. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our services, technologies, legal requirements, or privacy practices.
+
+When we do, we will update the “Effective Date” at the top of this page. If the changes are significant, we will make reasonable efforts to notify Founder's Circle members — for example, by posting a notice on idols4life.com or sending an email.
+
+By continuing to use the Site after any changes take effect, you agree to the updated Privacy Policy. If you do not agree with the revised policy, you should discontinue use of the Site and, if applicable, cancel your membership.
