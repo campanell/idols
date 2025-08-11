@@ -35,55 +35,39 @@ export async function onRequest(context) {
     const session = event.data.object;
     const customerEmail = session.customer_details?.email || session.customer_email;
 
-    // Prepare Mailjet API credentials
-    const apiKey = context.env.MAILJET_API_KEY;
-    const secretKey = context.env.MAILJET_SECRET_KEY;
-    const auth = btoa(`${apiKey}:${secretKey}`);
+    // SendGrid API key from environment
+    const sendgridApiKey = context.env.SENDGRID_API_KEY;
+    const templateId = "d-2085ef569f6c4c6c9996e2301d20bcc1"; // Welcome template
 
-    // Use Mailjet template with variables
-    const mailjetPayload = {
-      Messages: [
+    // Build SendGrid payload (no dynamic vars for now)
+    const sgPayload = {
+      from: { email: "robcamp@idols4life.com", name: "Rob from I4L Creative Studio" },
+      personalizations: [
         {
-          From: {
-            Email: "robcamp@idols4life.com", // Replace with your verified sender
-            Name: "Rob from I4L Creative Studio"
-          },
-          To: [
-            {
-              Email: customerEmail,
-              Name: customerEmail
-            }
-          ],
-          Subject: "Welcome to the Founders Circle 🌸 Your Journey Begins Now",
-          TemplateID: 7132771,
-          TemplateLanguage: true
-        }
-      ]
+          to: [{ email: customerEmail }],
+        },
+      ],
+      template_id: templateId,
     };
 
     try {
-      const mailjetResponse = await fetch("https://api.mailjet.com/v3.1/send", {
+      const sgResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
         headers: {
-          "Authorization": `Basic ${auth}`,
-          "Content-Type": "application/json"
+          Authorization: `Bearer ${sendgridApiKey}`,
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(mailjetPayload)
+        body: JSON.stringify(sgPayload),
       });
-      const mailjetText = await mailjetResponse.text();
-      let mailjetResult;
-      try {
-        mailjetResult = JSON.parse(mailjetText);
-      } catch (parseErr) {
-        mailjetResult = { parseError: parseErr.message, raw: mailjetText };
-      }
-      if (!mailjetResponse.ok) {
-        console.error("Mailjet API error:", mailjetResult);
+
+      const text = await sgResponse.text();
+      if (!sgResponse.ok) {
+        console.error("SendGrid API error:", sgResponse.status, text);
       } else {
-        console.log("Mailjet response:", mailjetResult);
+        console.log("SendGrid accepted message:", sgResponse.status);
       }
     } catch (err) {
-      console.error("Fetch to Mailjet failed:", err);
+      console.error("Fetch to SendGrid failed:", err);
     }
   }
 

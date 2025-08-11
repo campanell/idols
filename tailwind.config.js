@@ -15,7 +15,16 @@ export default {
     'border-slate-300'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+        'dark': '#333d79',   // Deep blue
+        'light': '#faebef',  // Soft pink background
+        'gray': '#6e6e6d',   // Neutral gray
+        'accent': '#fad0c9', // Accent peachy-pink
+        },
+      },
+    },
   },
   plugins: [],
 }
