@@ -1,6 +1,106 @@
 [
   {
     "roster_idol": "Pixie and AR",
+    "song_title": "一天结束时",
+    "publish_date": "2025-12-20",
+    "aspect_ratio": "vertical",
+    "track_id": "nviflueqrr",
+    "filename": "nviflueqrr_pixiear_mv_一天结束时_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "268df189980c922ac8599b65044c2f13"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "When the day is done",
+    "publish_date": "2025-12-19",
+    "aspect_ratio": "vertical",
+    "track_id": "nviflueqrr",
+    "filename": "nviflueqrr_pixiear_mv_When_the_day_is_done_vertical.mp4",
+    "language": "English",
+    "video_id": "099bd99b9ae223175d3671f7d74a23d0"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Quand le jour s’achève",
+    "publish_date": "2025-12-18",
+    "aspect_ratio": "vertical",
+    "track_id": "nviflueqrr",
+    "filename": "nviflueqrr_pixiear_mv_Quand_le_jour_s’achève_vertical.mp4",
+    "language": "Français",
+    "video_id": "df1dab339b6191cb0b7f2479d0204c38"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Khi ngày khép lại",
+    "publish_date": "2025-12-17",
+    "aspect_ratio": "vertical",
+    "track_id": "nviflueqrr",
+    "filename": "nviflueqrr_pixiear_mv_Khi_ngày_khép_lại_vertical.mp4",
+    "language": "Việt",
+    "video_id": "13530d335b87bcf9174cc1511ba305d9"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Cuando el día se va",
+    "publish_date": "2025-12-16",
+    "aspect_ratio": "vertical",
+    "track_id": "nviflueqrr",
+    "filename": "nviflueqrr_pixiear_mv_Cuando_el_día_se_va_vertical.mp4",
+    "language": "Español",
+    "video_id": "746b441730373c541eb1b3df4df81ca5"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "心跳加快",
+    "publish_date": "2025-12-15",
+    "aspect_ratio": "vertical",
+    "track_id": "eqrfksiazc",
+    "filename": "eqrfksiazc_novasyndicate_mv_心跳加快_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "5ea749d43850807dd0f989add03f2e52"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Tim anh đập nhanh hơn",
+    "publish_date": "2025-12-14",
+    "aspect_ratio": "vertical",
+    "track_id": "eqrfksiazc",
+    "filename": "eqrfksiazc_novasyndicate_mv_Tim_anh_đập_nhanh_hơn_vertical.mp4",
+    "language": "Việt",
+    "video_id": "a430676cd6f1144cabf0925fc63a6583"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Mon cœur s’accélère",
+    "publish_date": "2025-12-13",
+    "aspect_ratio": "vertical",
+    "track_id": "eqrfksiazc",
+    "filename": "eqrfksiazc_novasyndicate_mv_Mon_cœur_s’accélère_vertical.mp4",
+    "language": "Français",
+    "video_id": "d3049a61235d75d6c46cde35bffcd1d1"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Late_más_mi_corazón",
+    "publish_date": "2025-12-12",
+    "aspect_ratio": "vertical",
+    "track_id": "eqrfksiazc",
+    "filename": "eqrfksiazc_novasyndicate_mv_Late_más_mi_corazón_vertical.mp4",
+    "language": "Español",
+    "video_id": "572c9ba97649789991bf15d04d2d7329"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "beating faster",
+    "publish_date": "2025-12-11",
+    "aspect_ratio": "vertical",
+    "track_id": "eqrfksiazc",
+    "filename": "eqrfksiazc_novasyndicate_mv_beating_faster_vertical.mp4",
+    "language": "English",
+    "video_id": "b3b2c0bd8cda9bfb05bce461fd2cf3ce"
+  },
+  {
+    "roster_idol": "Pixie and AR",
     "song_title": "这是我们的命运",
     "publish_date": "2025-12-10",
     "aspect_ratio": "vertical",
@@ -598,105 +698,5 @@
     "filename": "dkluexrwlq_pixiear_mv_Être_ta_blonde_vertical.mp4",
     "language": "Français",
     "video_id": "d2ba8a2937ce80ce1b3b843671c6d976"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "没有借口",
-    "publish_date": "2025-10-11",
-    "aspect_ratio": "vertical",
-    "track_id": "mlilefqpco",
-    "filename": "mlilefqpco_novasyndicate_mv_没有借口_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "3e55b3391e8dbc663e299f028a4230f3"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "no hay excusas",
-    "publish_date": "2025-10-10",
-    "aspect_ratio": "vertical",
-    "track_id": "mlilefqpco",
-    "filename": "mlilefqpco_novasyndicate_mv_no_hay_excusas_vertical.mp4",
-    "language": "Español",
-    "video_id": "9de1f92d5164cd201adda1749f64b09b"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "no excuses",
-    "publish_date": "2025-10-09",
-    "aspect_ratio": "vertical",
-    "track_id": "mlilefqpco",
-    "filename": "mlilefqpco_novasyndicate_mv_no_excuses_vertical.mp4",
-    "language": "English",
-    "video_id": "db1a6b4bec3749858493864c8630d9d2"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "không biện hộ",
-    "publish_date": "2025-10-08",
-    "aspect_ratio": "vertical",
-    "track_id": "mlilefqpco",
-    "filename": "mlilefqpco_novasyndicate_mv_không_biện_hộ_vertical.mp4",
-    "language": "Việt",
-    "video_id": "7be285248b76d0f22e638a9c3fff5689"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "aucune excuse",
-    "publish_date": "2025-10-07",
-    "aspect_ratio": "vertical",
-    "track_id": "mlilefqpco",
-    "filename": "mlilefqpco_novasyndicate_mv_aucune_excuse_vertical.mp4",
-    "language": "Français",
-    "video_id": "91c887d3f61e8a4964aa5301637ef932"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "爱的使命",
-    "publish_date": "2025-10-06",
-    "aspect_ratio": "vertical",
-    "track_id": "xafjvmytcx",
-    "filename": "xafjvmytcx_novasyndicate_mv_爱的使命_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "dab623e8494bb7044f76df47fa79a01c"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "sứ mệnh tình yêu",
-    "publish_date": "2025-10-05",
-    "aspect_ratio": "vertical",
-    "track_id": "xafjvmytcx",
-    "filename": "xafjvmytcx_novasyndicate_mv_sứ_mệnh_tình_yêu_vertical.mp4",
-    "language": "Việt",
-    "video_id": "b354d8b91ab343f125d3d10a873ee5df"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "mission of love (oriental dnb)",
-    "publish_date": "2025-10-04",
-    "aspect_ratio": "vertical",
-    "track_id": "xafjvmytcx",
-    "filename": "xafjvmytcx_novasyndicate_mv_mission_of_love_(oriental_dnb)_vertical.mp4",
-    "language": "English",
-    "video_id": "a9d538fe6effdc1de5dab98c760387d6"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "mission of love",
-    "publish_date": "2025-10-03",
-    "aspect_ratio": "vertical",
-    "track_id": "xafjvmytcx",
-    "filename": "xafjvmytcx_novasyndicate_mv_mission_of_love_vertical.mp4",
-    "language": "English",
-    "video_id": "302459e16347df61e5b1e9d73073ee39"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "mission d’amour",
-    "publish_date": "2025-10-02",
-    "aspect_ratio": "vertical",
-    "track_id": "xafjvmytcx",
-    "filename": "xafjvmytcx_novasyndicate_mv_mission_d’amour_vertical.mp4",
-    "language": "Français",
-    "video_id": "6c6fc6a72acb47898468156dca4beeea"
   }
 ]
