@@ -1,5 +1,155 @@
 [
   {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "我的公主",
+    "publish_date": "2026-01-24",
+    "aspect_ratio": "vertical",
+    "track_id": "nzkveevqbs",
+    "filename": "nzkveevqbs_novasyndicate_mv_我的公主_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "f90db17f5c19e927fda3ff0af7e344d3"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "my princess",
+    "publish_date": "2026-01-23",
+    "aspect_ratio": "vertical",
+    "track_id": "nzkveevqbs",
+    "filename": "nzkveevqbs_novasyndicate_mv_my_princess_vertical.mp4",
+    "language": "English",
+    "video_id": "bae11dc3428327ac8f84630f420bdb55"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Mi princesa",
+    "publish_date": "2026-01-22",
+    "aspect_ratio": "vertical",
+    "track_id": "nzkveevqbs",
+    "filename": "nzkveevqbs_novasyndicate_mv_Mi_princesa_vertical.mp4",
+    "language": "Español",
+    "video_id": "01f8e11296f7fb5385546b6adefb2884"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Ma princesse",
+    "publish_date": "2026-01-21",
+    "aspect_ratio": "vertical",
+    "track_id": "nzkveevqbs",
+    "filename": "nzkveevqbs_novasyndicate_mv_Ma_princesse_vertical.mp4",
+    "language": "Français",
+    "video_id": "625a09074995261e36508320c680a188"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Công chúa của anh",
+    "publish_date": "2026-01-20",
+    "aspect_ratio": "vertical",
+    "track_id": "nzkveevqbs",
+    "filename": "nzkveevqbs_novasyndicate_mv_Công_chúa_của_anh_vertical.mp4",
+    "language": "Việt",
+    "video_id": "5b610937780794065f4ffcd73f1505d7"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "我们的主题是爱",
+    "publish_date": "2026-01-19",
+    "aspect_ratio": "vertical",
+    "track_id": "aaulrgkqmt",
+    "filename": "aaulrgkqmt_pixiear_mv_我们的主题是爱_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "7dc84449dba063a0944681c40af74f81"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Our theme is love",
+    "publish_date": "2026-01-18",
+    "aspect_ratio": "vertical",
+    "track_id": "aaulrgkqmt",
+    "filename": "aaulrgkqmt_pixiear_mv_Our_theme_is_love_vertical.mp4",
+    "language": "English",
+    "video_id": "00905cdabd6a32edfa2ba506f1339e73"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Nuestro tema es amor",
+    "publish_date": "2026-01-17",
+    "aspect_ratio": "vertical",
+    "track_id": "aaulrgkqmt",
+    "filename": "aaulrgkqmt_pixiear_mv_Nuestro_tema_es_amor_vertical.mp4",
+    "language": "Español",
+    "video_id": "757461b504fc4f0ec0b2531924439be3"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Notre thème c’est l’amour",
+    "publish_date": "2026-01-16",
+    "aspect_ratio": "vertical",
+    "track_id": "aaulrgkqmt",
+    "filename": "aaulrgkqmt_pixiear_mv_Notre_thème_c’est_l’amour_vertical.mp4",
+    "language": "Français",
+    "video_id": "e6eccc923bae2b356463996b8b063569"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Chủ đề mình là tình yêu",
+    "publish_date": "2026-01-15",
+    "aspect_ratio": "vertical",
+    "track_id": "aaulrgkqmt",
+    "filename": "aaulrgkqmt_pixiear_mv_Chủ_đề_mình_là_tình_yêu_vertical.mp4",
+    "language": "Việt",
+    "video_id": "5255a2a679d88ee5abb19a61f8dd0158"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "宇宙的爱",
+    "publish_date": "2026-01-14",
+    "aspect_ratio": "vertical",
+    "track_id": "rnhpvefkuc",
+    "filename": "rnhpvefkuc_pixiear_mv_宇宙的爱_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "90fa690a8f36de14bda64080f68e11ac"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Tình yêu vũ trụ",
+    "publish_date": "2026-01-13",
+    "aspect_ratio": "vertical",
+    "track_id": "rnhpvefkuc",
+    "filename": "rnhpvefkuc_pixiear_mv_Tình_yêu_vũ_trụ_vertical.mp4",
+    "language": "Việt",
+    "video_id": "3934eb34b7c25949a732786c016c278b"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "cosmic love",
+    "publish_date": "2026-01-12",
+    "aspect_ratio": "vertical",
+    "track_id": "rnhpvefkuc",
+    "filename": "rnhpvefkuc_pixiear_mv_cosmic_love_vertical.mp4",
+    "language": "English",
+    "video_id": "b6b3c75b835488b1a8c37bd409e3dde5"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Amour cosmique",
+    "publish_date": "2026-01-11",
+    "aspect_ratio": "vertical",
+    "track_id": "rnhpvefkuc",
+    "filename": "rnhpvefkuc_pixiear_mv_Amour_cosmique_vertical.mp4",
+    "language": "Français",
+    "video_id": "8e7118fc1b9b07356621803718ab04e2"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Amor cósmico",
+    "publish_date": "2026-01-10",
+    "aspect_ratio": "vertical",
+    "track_id": "rnhpvefkuc",
+    "filename": "rnhpvefkuc_pixiear_mv_Amor_cósmico_vertical.mp4",
+    "language": "Español",
+    "video_id": "5d433001070c5626edfa31555bc53cb7"
+  },
+  {
     "roster_idol": "Pixie and AR",
     "song_title": "是秋天的浪漫",
     "publish_date": "2026-01-09",
@@ -548,155 +698,5 @@
     "filename": "qsemdnqzvc_pixiear_mv_Ánh_sáng_tình_yêu_của_chúng_ta_vertical.mp4",
     "language": "Việt",
     "video_id": "bb9302f79068620f8fb2aa2736852cd1"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "我的心在燃烧",
-    "publish_date": "2025-11-15",
-    "aspect_ratio": "vertical",
-    "track_id": "xftbnvitrg",
-    "filename": "xftbnvitrg_pixiear_mv_我的心在燃烧_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "08e78911d47083f6be6ffc2c86ef8073"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tim em rực cháy",
-    "publish_date": "2025-11-14",
-    "aspect_ratio": "vertical",
-    "track_id": "xftbnvitrg",
-    "filename": "xftbnvitrg_pixiear_mv_Tim_em_rực_cháy_vertical.mp4",
-    "language": "Việt",
-    "video_id": "e9a05099cb95e4ff9bc9fa532e5a1f3d"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "my heart is on fire",
-    "publish_date": "2025-11-13",
-    "aspect_ratio": "vertical",
-    "track_id": "xftbnvitrg",
-    "filename": "xftbnvitrg_pixiear_mv_my_heart_is_on_fire_vertical.mp4",
-    "language": "English",
-    "video_id": "016b2eb740db6af271e9a29f36a279c1"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Mon cœur est en feu",
-    "publish_date": "2025-11-12",
-    "aspect_ratio": "vertical",
-    "track_id": "xftbnvitrg",
-    "filename": "xftbnvitrg_pixiear_mv_Mon_cœur_est_en_feu_vertical.mp4",
-    "language": "Français",
-    "video_id": "d8dc1b77d988c1fed781d69221bf8790"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Mi corazón arde",
-    "publish_date": "2025-11-11",
-    "aspect_ratio": "vertical",
-    "track_id": "xftbnvitrg",
-    "filename": "xftbnvitrg_pixiear_mv_Mi_corazón_arde_vertical.mp4",
-    "language": "Español",
-    "video_id": "1dd4fe2c2877a2c584cd24f2819c3d87"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "你的爱在我心",
-    "publish_date": "2025-11-10",
-    "aspect_ratio": "vertical",
-    "track_id": "ndjbomfgpr",
-    "filename": "ndjbomfgpr_pixiear_mv_你的爱在我心_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "38bdab8201cd1be1440e741fea21b48d"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Your love on me",
-    "publish_date": "2025-11-09",
-    "aspect_ratio": "vertical",
-    "track_id": "ndjbomfgpr",
-    "filename": "ndjbomfgpr_pixiear_mv_Your_love_on_me_vertical.mp4",
-    "language": "English",
-    "video_id": "e0762853643c885cc7abdf63faaa40cf"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Ton amour sur moi",
-    "publish_date": "2025-11-08",
-    "aspect_ratio": "vertical",
-    "track_id": "ndjbomfgpr",
-    "filename": "ndjbomfgpr_pixiear_mv_Ton_amour_sur_moi_vertical.mp4",
-    "language": "Français",
-    "video_id": "80d7aaf4203b04df79b239dcc16c7eb6"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tình yêu anh trên em",
-    "publish_date": "2025-11-07",
-    "aspect_ratio": "vertical",
-    "track_id": "ndjbomfgpr",
-    "filename": "ndjbomfgpr_pixiear_mv_Tình_yêu_anh_trên_em_vertical.mp4",
-    "language": "Việt",
-    "video_id": "ea43d45a461f6e8c56249e2b42421351"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "想象我们的爱",
-    "publish_date": "2025-11-06",
-    "aspect_ratio": "vertical",
-    "track_id": "jqxatfnzwb",
-    "filename": "jqxatfnzwb_novasyndicate_mv_想象我们的爱_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "651e428e73fea1d1888dbec922829c1e"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "imagine our love",
-    "publish_date": "2025-11-05",
-    "aspect_ratio": "vertical",
-    "track_id": "jqxatfnzwb",
-    "filename": "jqxatfnzwb_novasyndicate_mv_imagine_our_love_vertical.mp4",
-    "language": "English",
-    "video_id": "83f179a3110006a57e280f1278045f5d"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Imagine notre amour",
-    "publish_date": "2025-11-04",
-    "aspect_ratio": "vertical",
-    "track_id": "jqxatfnzwb",
-    "filename": "jqxatfnzwb_novasyndicate_mv_Imagine_notre_amour_vertical.mp4",
-    "language": "Français",
-    "video_id": "743059d9a2c889e5fda0ec622ca68ffe"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "imagina nuestro amor",
-    "publish_date": "2025-11-03",
-    "aspect_ratio": "vertical",
-    "track_id": "jqxatfnzwb",
-    "filename": "jqxatfnzwb_novasyndicate_mv_imagina_nuestro_amor_vertical.mp4",
-    "language": "Español",
-    "video_id": "bac4f1caadbd4c295035c0867321b0d4"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "hãy tưởng tượng tình ta",
-    "publish_date": "2025-11-02",
-    "aspect_ratio": "vertical",
-    "track_id": "jqxatfnzwb",
-    "filename": "jqxatfnzwb_novasyndicate_mv_hãy_tưởng_tượng_tình_ta_vertical.mp4",
-    "language": "Việt",
-    "video_id": "a6d60ace790822ee7dccb52b012d1b45"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "我们是一体",
-    "publish_date": "2025-11-01",
-    "aspect_ratio": "vertical",
-    "track_id": "rlnxqblosh",
-    "filename": "rlnxqblosh_pixiear_mv_我们是一体_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "76c10558c5560814ce438befbd22adb0"
   }
 ]
