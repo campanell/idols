@@ -1,6 +1,126 @@
 [
   {
     "roster_idol": "Imperial Princess",
+    "song_title": "同父",
+    "publish_date": "2026-02-11",
+    "aspect_ratio": "vertical",
+    "track_id": "swvclvnfog",
+    "filename": "swvclvnfog_imperialprincess_mv_同父_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "6eebeb0254ff2773079b2039a41af5a3"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "one father shared",
+    "publish_date": "2026-02-10",
+    "aspect_ratio": "vertical",
+    "track_id": "swvclvnfog",
+    "filename": "swvclvnfog_imperialprincess_mv_one_father_shared_vertical.mp4",
+    "language": "English",
+    "video_id": "afe1d73a2d7b2a8b8307c2a18451c951"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "到我这里来",
+    "publish_date": "2026-02-09",
+    "aspect_ratio": "vertical",
+    "track_id": "ezruisrmpp",
+    "filename": "ezruisrmpp_pixiear_mv_到我这里来_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "b1bb1658db4d3e083fb5a932f08897b2"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Viens à moi (edit)",
+    "publish_date": "2026-02-08",
+    "aspect_ratio": "vertical",
+    "track_id": "ezruisrmpp",
+    "filename": "ezruisrmpp_pixiear_mv_Viens_à_moi_(edit)_vertical.mp4",
+    "language": "Français",
+    "video_id": "b16a382bd69ac219dc7983cb178cc495"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Ven a mí",
+    "publish_date": "2026-02-07",
+    "aspect_ratio": "vertical",
+    "track_id": "ezruisrmpp",
+    "filename": "ezruisrmpp_pixiear_mv_Ven_a_mí_vertical.mp4",
+    "language": "Español",
+    "video_id": "8046989ce0a15276820098790280d21f"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Hãy đến bên em",
+    "publish_date": "2026-02-06",
+    "aspect_ratio": "vertical",
+    "track_id": "ezruisrmpp",
+    "filename": "ezruisrmpp_pixiear_mv_Hãy_đến_bên_em_vertical.mp4",
+    "language": "Việt",
+    "video_id": "3498c7eb2cc2a790244e347309d15eab"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "come to me (mantra edit)",
+    "publish_date": "2026-02-05",
+    "aspect_ratio": "vertical",
+    "track_id": "ezruisrmpp",
+    "filename": "ezruisrmpp_pixiear_mv_come_to_me_(mantra_edit)_vertical.mp4",
+    "language": "English",
+    "video_id": "aaf9c7db6d671a51e431c284c50e8847"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "在你怀里",
+    "publish_date": "2026-02-04",
+    "aspect_ratio": "vertical",
+    "track_id": "qvlnhiykxq",
+    "filename": "qvlnhiykxq_novasyndicate_mv_在你怀里_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "e1e3fb14699fa2a3be583016c55577fd"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Trong vòng tay anh",
+    "publish_date": "2026-02-03",
+    "aspect_ratio": "vertical",
+    "track_id": "qvlnhiykxq",
+    "filename": "qvlnhiykxq_novasyndicate_mv_Trong_vòng_tay_anh_vertical.mp4",
+    "language": "Việt",
+    "video_id": "34435d83a60b9425713707b6e74a3eba"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "In your arms",
+    "publish_date": "2026-02-02",
+    "aspect_ratio": "vertical",
+    "track_id": "qvlnhiykxq",
+    "filename": "qvlnhiykxq_novasyndicate_mv_In_your_arms_vertical.mp4",
+    "language": "English",
+    "video_id": "9cbded072b95a94b70f72bfda163bfa3"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "En tus brazos",
+    "publish_date": "2026-02-01",
+    "aspect_ratio": "vertical",
+    "track_id": "qvlnhiykxq",
+    "filename": "qvlnhiykxq_novasyndicate_mv_En_tus_brazos_vertical.mp4",
+    "language": "Español",
+    "video_id": "b892dd1c409a12c9e75a550ca3ee8aba"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Dans tes bras",
+    "publish_date": "2026-01-31",
+    "aspect_ratio": "vertical",
+    "track_id": "qvlnhiykxq",
+    "filename": "qvlnhiykxq_novasyndicate_mv_Dans_tes_bras_vertical.mp4",
+    "language": "Français",
+    "video_id": "405ccd217abb8de2a26707e69b01f1c4"
+  },
+  {
+    "roster_idol": "Imperial Princess",
     "song_title": "绣袖轻拂春风",
     "publish_date": "2026-01-30",
     "aspect_ratio": "vertical",
@@ -578,125 +698,5 @@
     "filename": "qbonvjgugi_novasyndicate_mv_Nuit_sombre_et_pluvieuse_vertical.mp4",
     "language": "Français",
     "video_id": "e811aef91d365bb14c54a2a1d325b4e7"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Noche oscura y lluviosa",
-    "publish_date": "2025-12-03",
-    "aspect_ratio": "vertical",
-    "track_id": "qbonvjgugi",
-    "filename": "qbonvjgugi_novasyndicate_mv_Noche_oscura_y_lluviosa_vertical.mp4",
-    "language": "Español",
-    "video_id": "e4180ff72228f8018d8020ddb8c9af7b"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Đêm tối mưa rơi",
-    "publish_date": "2025-12-02",
-    "aspect_ratio": "vertical",
-    "track_id": "qbonvjgugi",
-    "filename": "qbonvjgugi_novasyndicate_mv_Đêm_tối_mưa_rơi_vertical.mp4",
-    "language": "Việt",
-    "video_id": "6c11e5ced3823d2cc273125f566c88f5"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Dark rainy night",
-    "publish_date": "2025-12-01",
-    "aspect_ratio": "vertical",
-    "track_id": "qbonvjgugi",
-    "filename": "qbonvjgugi_novasyndicate_mv_Dark_rainy_night_vertical.mp4",
-    "language": "English",
-    "video_id": "e03a89d6cb8dbc7677304e43c57df63f"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "我们的秘密远方",
-    "publish_date": "2025-11-30",
-    "aspect_ratio": "vertical",
-    "track_id": "aovpsrffsw",
-    "filename": "aovpsrffsw_pixiear_mv_我们的秘密远方_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "cc65be8a9862c0504ffddb7c04c717b1"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "secret_getaway",
-    "publish_date": "2025-11-29",
-    "aspect_ratio": "vertical",
-    "track_id": "aovpsrffsw",
-    "filename": "aovpsrffsw_pixiear_mv_secret_getaway_vertical.mp4",
-    "language": "English",
-    "video_id": "7bfdeaa83ed8a81ece25c3d40e44d349"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Nuestro_escondite_secreto",
-    "publish_date": "2025-11-28",
-    "aspect_ratio": "vertical",
-    "track_id": "aovpsrffsw",
-    "filename": "aovpsrffsw_pixiear_mv_Nuestro_escondite_secreto_vertical.mp4",
-    "language": "Español",
-    "video_id": "0a17f65f4c10941dd54cd38dba993028"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Notre_cachette_secrète",
-    "publish_date": "2025-11-27",
-    "aspect_ratio": "vertical",
-    "track_id": "aovpsrffsw",
-    "filename": "aovpsrffsw_pixiear_mv_Notre_cachette_secrète_vertical.mp4",
-    "language": "Français",
-    "video_id": "be63cacd8c64d014bd68412316326edc"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Nơi_bí_mật_riêng_ta",
-    "publish_date": "2025-11-26",
-    "aspect_ratio": "vertical",
-    "track_id": "aovpsrffsw",
-    "filename": "aovpsrffsw_pixiear_mv_Nơi_bí_mật_riêng_ta_vertical.mp4",
-    "language": "Việt",
-    "video_id": "87a00ca68dc2fa37004cd2666091d9cf"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "会再次去爱",
-    "publish_date": "2025-11-25",
-    "aspect_ratio": "vertical",
-    "track_id": "qgoixyswtd",
-    "filename": "qgoixyswtd_pixiear_mv_会再次去爱_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "82da8eb607407037ad0c1cc43ed10c7e"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Sẽ_lại_yêu_thêm_lần",
-    "publish_date": "2025-11-24",
-    "aspect_ratio": "vertical",
-    "track_id": "qgoixyswtd",
-    "filename": "qgoixyswtd_pixiear_mv_Sẽ_lại_yêu_thêm_lần_vertical.mp4",
-    "language": "Việt",
-    "video_id": "60222b09a08b8734772571757750e7b3"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "i_will_love_again",
-    "publish_date": "2025-11-23",
-    "aspect_ratio": "vertical",
-    "track_id": "qgoixyswtd",
-    "filename": "qgoixyswtd_pixiear_mv_i_will_love_again_vertical.mp4",
-    "language": "English",
-    "video_id": "36be99fb411bc628fb34e1416ddd1102"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Amará_otra_vez",
-    "publish_date": "2025-11-22",
-    "aspect_ratio": "vertical",
-    "track_id": "qgoixyswtd",
-    "filename": "qgoixyswtd_pixiear_mv_Amará_otra_vez_vertical.mp4",
-    "language": "Español",
-    "video_id": "09a9c131b75112c96e6d27e9737bccff"
   }
 ]
