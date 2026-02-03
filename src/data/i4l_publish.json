@@ -1,5 +1,125 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "只余此安宁",
+    "publish_date": "2026-03-10",
+    "aspect_ratio": "vertical",
+    "track_id": "ikszlhkogq",
+    "filename": "ikszlhkogq_imperialprincess_mv_只余此安宁_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "5021159695edea5e2cd794430c8cbfd7"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Only this peace remains",
+    "publish_date": "2026-03-09",
+    "aspect_ratio": "vertical",
+    "track_id": "ikszlhkogq",
+    "filename": "ikszlhkogq_imperialprincess_mv_Only_this_peace_remains_vertical.mp4",
+    "language": "English",
+    "video_id": "ce08d54d76906ea3cb90d7fd8985a942"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "星辰男孩",
+    "publish_date": "2026-03-08",
+    "aspect_ratio": "vertical",
+    "track_id": "uiomfqodyx",
+    "filename": "uiomfqodyx_pixiear_mv_星辰男孩_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "45fc478d04659856ee57658ff274d4d2"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Star boy",
+    "publish_date": "2026-03-07",
+    "aspect_ratio": "vertical",
+    "track_id": "uiomfqodyx",
+    "filename": "uiomfqodyx_pixiear_mv_Star_boy_vertical.mp4",
+    "language": "English",
+    "video_id": "1cea3c8e19cd3824225c250b46e5de09"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Garçon étoile",
+    "publish_date": "2026-03-06",
+    "aspect_ratio": "vertical",
+    "track_id": "uiomfqodyx",
+    "filename": "uiomfqodyx_pixiear_mv_Garçon_étoile_vertical.mp4",
+    "language": "Français",
+    "video_id": "a1babd9bb02ea93be60f2b77d67913e7"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Chico estrella",
+    "publish_date": "2026-03-05",
+    "aspect_ratio": "vertical",
+    "track_id": "uiomfqodyx",
+    "filename": "uiomfqodyx_pixiear_mv_Chico_estrella_vertical.mp4",
+    "language": "Español",
+    "video_id": "b369289f67f54d3ba8c778d41a2dd96e"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Chàng sao ơi",
+    "publish_date": "2026-03-04",
+    "aspect_ratio": "vertical",
+    "track_id": "uiomfqodyx",
+    "filename": "uiomfqodyx_pixiear_mv_Chàng_sao_ơi_vertical.mp4",
+    "language": "Việt",
+    "video_id": "d2ddf62d501aeae7373694bca52ef4c0"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "我可以告诉你",
+    "publish_date": "2026-03-03",
+    "aspect_ratio": "vertical",
+    "track_id": "wveccjylft",
+    "filename": "wveccjylft_novasyndicate_mv_我可以告诉你_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "10e85a48f3c956d010ef64c8b124a263"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Puedo decirte",
+    "publish_date": "2026-03-02",
+    "aspect_ratio": "vertical",
+    "track_id": "wveccjylft",
+    "filename": "wveccjylft_novasyndicate_mv_Puedo_decirte_vertical.mp4",
+    "language": "Español",
+    "video_id": "83ba33e04baf7cafb54cdc2557d8c49a"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Je peux te dire",
+    "publish_date": "2026-03-01",
+    "aspect_ratio": "vertical",
+    "track_id": "wveccjylft",
+    "filename": "wveccjylft_novasyndicate_mv_Je_peux_te_dire_vertical.mp4",
+    "language": "Français",
+    "video_id": "dde1c09ee1463b7f6bb365e8cda3bd0e"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "I can tell you",
+    "publish_date": "2026-02-28",
+    "aspect_ratio": "vertical",
+    "track_id": "wveccjylft",
+    "filename": "wveccjylft_novasyndicate_mv_I_can_tell_you_vertical.mp4",
+    "language": "English",
+    "video_id": "fff57a8b0bcb0f81bcfa54741df2c371"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Anh có thể nói với em",
+    "publish_date": "2026-02-27",
+    "aspect_ratio": "vertical",
+    "track_id": "wveccjylft",
+    "filename": "wveccjylft_novasyndicate_mv_Anh_có_thể_nói_với_em_vertical.mp4",
+    "language": "Việt",
+    "video_id": "f408a52df6e0d30233de59bf59730895"
+  },
+  {
     "roster_idol": "Pixie and AR",
     "song_title": "提升我的情绪(2026)",
     "publish_date": "2026-02-26",
@@ -578,125 +698,5 @@
     "filename": "gtbfdxgnoq_novasyndicate_mv_Đôi_mắt_em_vertical.mp4",
     "language": "Việt",
     "video_id": "3674634694078154df126e5a1e1fedc4"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "你知道吗",
-    "publish_date": "2025-12-30",
-    "aspect_ratio": "vertical",
-    "track_id": "vumbbsbvhu",
-    "filename": "vumbbsbvhu_pixiear_mv_你知道吗_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "023436ff956940e419cbfc3713a64477"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tu le sais pas",
-    "publish_date": "2025-12-29",
-    "aspect_ratio": "vertical",
-    "track_id": "vumbbsbvhu",
-    "filename": "vumbbsbvhu_pixiear_mv_Tu_le_sais_pas_vertical.mp4",
-    "language": "Français",
-    "video_id": "a065c3af1e504a9107962ad14abff315"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Te lo voy a mostrar",
-    "publish_date": "2025-12-28",
-    "aspect_ratio": "vertical",
-    "track_id": "vumbbsbvhu",
-    "filename": "vumbbsbvhu_pixiear_mv_Te_lo_voy_a_mostrar_vertical.mp4",
-    "language": "Español",
-    "video_id": "5802e9d847b4b1bd199217f883297c21"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Don’t you know",
-    "publish_date": "2025-12-27",
-    "aspect_ratio": "vertical",
-    "track_id": "vumbbsbvhu",
-    "filename": "vumbbsbvhu_pixiear_mv_Don’t_you_know_vertical.mp4",
-    "language": "English",
-    "video_id": "0b2e54e75202008e995125ee74e6dfb8"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Biết không",
-    "publish_date": "2025-12-26",
-    "aspect_ratio": "vertical",
-    "track_id": "vumbbsbvhu",
-    "filename": "vumbbsbvhu_pixiear_mv_Biết_không_vertical.mp4",
-    "language": "Việt",
-    "video_id": "ce7dd6bc98a6db7b545f3733b384a2cd"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "做我的女王",
-    "publish_date": "2025-12-25",
-    "aspect_ratio": "vertical",
-    "track_id": "xfkuhtypau",
-    "filename": "xfkuhtypau_novasyndicate_mv_做我的女王_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "908c4b9971059e3eb161ce1db530bb40"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Sois ma reine",
-    "publish_date": "2025-12-24",
-    "aspect_ratio": "vertical",
-    "track_id": "xfkuhtypau",
-    "filename": "xfkuhtypau_novasyndicate_mv_Sois_ma_reine_vertical.mp4",
-    "language": "Français",
-    "video_id": "0f9b96633e857b104caa9713305166d5"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Sé mi reina",
-    "publish_date": "2025-12-23",
-    "aspect_ratio": "vertical",
-    "track_id": "xfkuhtypau",
-    "filename": "xfkuhtypau_novasyndicate_mv_Sé_mi_reina_vertical.mp4",
-    "language": "Español",
-    "video_id": "6619500a24f1efa8d1d0b9908ebe1718"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Em là nữ hoàng anh",
-    "publish_date": "2025-12-22",
-    "aspect_ratio": "vertical",
-    "track_id": "xfkuhtypau",
-    "filename": "xfkuhtypau_novasyndicate_mv_Em_là_nữ_hoàng_anh_vertical.mp4",
-    "language": "Việt",
-    "video_id": "e830c0719af79d85e044a3402e13a950"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Be my queen",
-    "publish_date": "2025-12-21",
-    "aspect_ratio": "vertical",
-    "track_id": "xfkuhtypau",
-    "filename": "xfkuhtypau_novasyndicate_mv_Be_my_queen_vertical.mp4",
-    "language": "English",
-    "video_id": "7edf62a5dc477b106e1d77e1f20e33bf"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "一天结束时",
-    "publish_date": "2025-12-20",
-    "aspect_ratio": "vertical",
-    "track_id": "nviflueqrr",
-    "filename": "nviflueqrr_pixiear_mv_一天结束时_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "268df189980c922ac8599b65044c2f13"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "When the day is done",
-    "publish_date": "2025-12-19",
-    "aspect_ratio": "vertical",
-    "track_id": "nviflueqrr",
-    "filename": "nviflueqrr_pixiear_mv_When_the_day_is_done_vertical.mp4",
-    "language": "English",
-    "video_id": "099bd99b9ae223175d3671f7d74a23d0"
   }
 ]
