@@ -7,7 +7,6 @@ import Header from './components/Header'
 import StripeCheckout from './pages/StripeCheckout';
 import SuccessPage from './pages/SuccessPage';
 import CancelPage from './pages/CancelPage';
-import MembershipPage from './pages/MembershipPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Footer from './components/Footer';
@@ -26,7 +25,6 @@ function App() {
         <Route path="/checkout" element={<StripeCheckout />} />
         <Route path="/success" element={<SuccessPage />} />
         <Route path="/cancel" element={<CancelPage />} />
-        <Route path="/membership" element={<MembershipPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         {/* Add more <Route> entries here for other pages */}

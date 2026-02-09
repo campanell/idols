@@ -28,7 +28,6 @@ export default function Header() {
         <nav className="absolute top-full right-4 mt-2 bg-white text-indigo-900 rounded shadow-lg p-4 space-y-2 z-10">
           <a href="/" className="block hover:text-pink-400">Home</a>
           <a href="/about" className="block hover:text-pink-400">About</a>
-          <a href="/membership" className="block hover:text-pink-400">Membership</a>
           <a href="/roster" className="block hover:text-pink-400">Roster</a>
           <a href="/blog" className="block hover:text-pink-400">Blog</a>
         </nav>
