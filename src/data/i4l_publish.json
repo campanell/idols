@@ -1,6 +1,76 @@
 [
   {
     "roster_idol": "Pixie and AR",
+    "song_title": "永远相爱",
+    "publish_date": "2026-04-14",
+    "aspect_ratio": "vertical",
+    "track_id": "pihlqalurn",
+    "filename": "pihlqalurn_pixiear_mv_永远相爱_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "3fed53f48a1afff7be5460f7ad64ea82"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Pour toujours amoureux",
+    "publish_date": "2026-04-13",
+    "aspect_ratio": "vertical",
+    "track_id": "pihlqalurn",
+    "filename": "pihlqalurn_pixiear_mv_Pour_toujours_amoureux_vertical.mp4",
+    "language": "Français",
+    "video_id": "26068e865026a42b07d585ac4580a5d7"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Por siempre en amor",
+    "publish_date": "2026-04-12",
+    "aspect_ratio": "vertical",
+    "track_id": "pihlqalurn",
+    "filename": "pihlqalurn_pixiear_mv_Por_siempre_en_amor_vertical.mp4",
+    "language": "Español",
+    "video_id": "4d990cd6ad1f01c90abb449b03760b8f"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Mãi mãi trong tình yêu",
+    "publish_date": "2026-04-11",
+    "aspect_ratio": "vertical",
+    "track_id": "pihlqalurn",
+    "filename": "pihlqalurn_pixiear_mv_Mãi_mãi_trong_tình_yêu_vertical.mp4",
+    "language": "Việt",
+    "video_id": "a8f351328a48c17c40428989d4f4770e"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Forever in love",
+    "publish_date": "2026-04-10",
+    "aspect_ratio": "vertical",
+    "track_id": "pihlqalurn",
+    "filename": "pihlqalurn_pixiear_mv_Forever_in_love_vertical.mp4",
+    "language": "English",
+    "video_id": "6b5ede4d2bca3ca530d6dd2d2a2d7c12"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "心在此处安宁",
+    "publish_date": "2026-04-09",
+    "aspect_ratio": "vertical",
+    "track_id": "gdvxsuwesd",
+    "filename": "gdvxsuwesd_imperialprincess_mv_心在此处安宁_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "8d1ef480ff58130d518435a2d0859e5d"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "natures calm within",
+    "publish_date": "2026-04-08",
+    "aspect_ratio": "vertical",
+    "track_id": "gdvxsuwesd",
+    "filename": "gdvxsuwesd_imperialprincess_mv_natures_calm_within_vertical.mp4",
+    "language": "English",
+    "video_id": "176dd23339c6c1f4ad2b657b73622f0a"
+  },
+  {
+    "roster_idol": "Pixie and AR",
     "song_title": "爱在律动",
     "publish_date": "2026-04-07",
     "aspect_ratio": "vertical",
@@ -628,75 +698,5 @@
     "filename": "qvlnhiykxq_novasyndicate_mv_在你怀里_vertical.mp4",
     "language": "中文（繁體）",
     "video_id": "e1e3fb14699fa2a3be583016c55577fd"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Trong vòng tay anh",
-    "publish_date": "2026-02-03",
-    "aspect_ratio": "vertical",
-    "track_id": "qvlnhiykxq",
-    "filename": "qvlnhiykxq_novasyndicate_mv_Trong_vòng_tay_anh_vertical.mp4",
-    "language": "Việt",
-    "video_id": "34435d83a60b9425713707b6e74a3eba"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "In your arms",
-    "publish_date": "2026-02-02",
-    "aspect_ratio": "vertical",
-    "track_id": "qvlnhiykxq",
-    "filename": "qvlnhiykxq_novasyndicate_mv_In_your_arms_vertical.mp4",
-    "language": "English",
-    "video_id": "9cbded072b95a94b70f72bfda163bfa3"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "En tus brazos",
-    "publish_date": "2026-02-01",
-    "aspect_ratio": "vertical",
-    "track_id": "qvlnhiykxq",
-    "filename": "qvlnhiykxq_novasyndicate_mv_En_tus_brazos_vertical.mp4",
-    "language": "Español",
-    "video_id": "b892dd1c409a12c9e75a550ca3ee8aba"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Dans tes bras",
-    "publish_date": "2026-01-31",
-    "aspect_ratio": "vertical",
-    "track_id": "qvlnhiykxq",
-    "filename": "qvlnhiykxq_novasyndicate_mv_Dans_tes_bras_vertical.mp4",
-    "language": "Français",
-    "video_id": "405ccd217abb8de2a26707e69b01f1c4"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "绣袖轻拂春风",
-    "publish_date": "2026-01-30",
-    "aspect_ratio": "vertical",
-    "track_id": "nvkwsxtbir",
-    "filename": "nvkwsxtbir_imperialprincess_mv_绣袖轻拂春风_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "2b4d936509628442bbac23a3c5011267"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "她把思念折成兰枝",
-    "publish_date": "2026-01-29",
-    "aspect_ratio": "vertical",
-    "track_id": "nvkwsxtbir",
-    "filename": "nvkwsxtbir_imperialprincess_mv_她把思念折成兰枝_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "3ddfa894a6b3015ee8c107f3350c1463"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "一笑不求千客解",
-    "publish_date": "2026-01-28",
-    "aspect_ratio": "vertical",
-    "track_id": "nvkwsxtbir",
-    "filename": "nvkwsxtbir_imperialprincess_mv_一笑不求千客解_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "6f30909fe3ba7cf83f9641537ca80c4a"
   }
 ]
