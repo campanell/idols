@@ -1,5 +1,125 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "御苑清音满",
+    "publish_date": "2026-05-10",
+    "aspect_ratio": "vertical",
+    "track_id": "ofuiwusmui",
+    "filename": "ofuiwusmui_imperialprincess_mv_御苑清音满_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "fa03c491ade6c39c97b323ba0496a1e0"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Imperial garden soft melodies drift",
+    "publish_date": "2026-05-09",
+    "aspect_ratio": "vertical",
+    "track_id": "ofuiwusmui",
+    "filename": "ofuiwusmui_imperialprincess_mv_Imperial_garden_soft_melodies_drift_vertical.mp4",
+    "language": "English",
+    "video_id": "90028e0faf80d01d64d4b2257dc71fa8"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "握着地图 通往我真心深处",
+    "publish_date": "2026-05-08",
+    "aspect_ratio": "vertical",
+    "track_id": "wrashtfjsx",
+    "filename": "wrashtfjsx_novasyndicate_mv_握着地图_通往我真心深处_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "a0c9d6fc937a84cf6d2cb4c74664a9f4"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "qui tenais la carte vers mon vrai cœur",
+    "publish_date": "2026-05-07",
+    "aspect_ratio": "vertical",
+    "track_id": "wrashtfjsx",
+    "filename": "wrashtfjsx_novasyndicate_mv_qui_tenais_la_carte_vers_mon_vrai_cœur_vertical.mp4",
+    "language": "Français",
+    "video_id": "84e337954ca44f771de9972c8bcd2d65"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Holding the map to my true heart",
+    "publish_date": "2026-05-06",
+    "aspect_ratio": "vertical",
+    "track_id": "wrashtfjsx",
+    "filename": "wrashtfjsx_novasyndicate_mv_Holding_the_map_to_my_true_heart_vertical.mp4",
+    "language": "English",
+    "video_id": "d45ea41849a0d9769a6ce74c3340e51d"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "giữ tấm bản đồ dẫn lối vào tim anh",
+    "publish_date": "2026-05-05",
+    "aspect_ratio": "vertical",
+    "track_id": "wrashtfjsx",
+    "filename": "wrashtfjsx_novasyndicate_mv_giữ_tấm_bản_đồ_dẫn_lối_vào_tim_anh_vertical.mp4",
+    "language": "Việt",
+    "video_id": "a0654d454fb83ba2e7c90bc4ce3571aa"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "con el mapa de mi corazón de verdad",
+    "publish_date": "2026-05-04",
+    "aspect_ratio": "vertical",
+    "track_id": "wrashtfjsx",
+    "filename": "wrashtfjsx_novasyndicate_mv_con_el_mapa_de_mi_corazón_de_verdad_vertical.mp4",
+    "language": "Español",
+    "video_id": "79c4b158ea5ec2cd92018e5cb063f757"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "月亮和星星在我上方",
+    "publish_date": "2026-05-03",
+    "aspect_ratio": "vertical",
+    "track_id": "nlwhjuidtg",
+    "filename": "nlwhjuidtg_pixiear_mv_月亮和星星在我上方_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "c5814733af0c2fdb08a61c23104bb620"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Trăng và sao ở trên cao",
+    "publish_date": "2026-05-02",
+    "aspect_ratio": "vertical",
+    "track_id": "nlwhjuidtg",
+    "filename": "nlwhjuidtg_pixiear_mv_Trăng_và_sao_ở_trên_cao_vertical.mp4",
+    "language": "Việt",
+    "video_id": "bcbba6596beabb75b02b83db867d6902"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "moon and stars",
+    "publish_date": "2026-05-01",
+    "aspect_ratio": "vertical",
+    "track_id": "nlwhjuidtg",
+    "filename": "nlwhjuidtg_pixiear_mv_moon_and_stars_vertical.mp4",
+    "language": "English",
+    "video_id": "88f5a0fc15c79408dad15e744e7567f8"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Luna y estrellas",
+    "publish_date": "2026-04-30",
+    "aspect_ratio": "vertical",
+    "track_id": "nlwhjuidtg",
+    "filename": "nlwhjuidtg_pixiear_mv_Luna_y_estrellas_vertical.mp4",
+    "language": "Español",
+    "video_id": "69417b9a298fcb3011bb275bceb9883d"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "La lune et les étoiles",
+    "publish_date": "2026-04-29",
+    "aspect_ratio": "vertical",
+    "track_id": "nlwhjuidtg",
+    "filename": "nlwhjuidtg_pixiear_mv_La_lune_et_les_étoiles_vertical.mp4",
+    "language": "Français",
+    "video_id": "31f9e99c279aee914ef18bdbf6ec0772"
+  },
+  {
     "roster_idol": "Pixie and AR",
     "song_title": "每分每秒",
     "publish_date": "2026-04-28",
@@ -578,125 +698,5 @@
     "filename": "wveccjylft_novasyndicate_mv_Puedo_decirte_vertical.mp4",
     "language": "Español",
     "video_id": "83ba33e04baf7cafb54cdc2557d8c49a"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Je peux te dire",
-    "publish_date": "2026-03-01",
-    "aspect_ratio": "vertical",
-    "track_id": "wveccjylft",
-    "filename": "wveccjylft_novasyndicate_mv_Je_peux_te_dire_vertical.mp4",
-    "language": "Français",
-    "video_id": "dde1c09ee1463b7f6bb365e8cda3bd0e"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "I can tell you",
-    "publish_date": "2026-02-28",
-    "aspect_ratio": "vertical",
-    "track_id": "wveccjylft",
-    "filename": "wveccjylft_novasyndicate_mv_I_can_tell_you_vertical.mp4",
-    "language": "English",
-    "video_id": "fff57a8b0bcb0f81bcfa54741df2c371"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Anh có thể nói với em",
-    "publish_date": "2026-02-27",
-    "aspect_ratio": "vertical",
-    "track_id": "wveccjylft",
-    "filename": "wveccjylft_novasyndicate_mv_Anh_có_thể_nói_với_em_vertical.mp4",
-    "language": "Việt",
-    "video_id": "f408a52df6e0d30233de59bf59730895"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "提升我的情绪(2026)",
-    "publish_date": "2026-02-26",
-    "aspect_ratio": "vertical",
-    "track_id": "fhwqvtmgxc",
-    "filename": "fhwqvtmgxc_pixiear_mv_提升我的情绪(2026)_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "7d4b983574f16452bb93db9ed0119fc1"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "nâng cao cảm xúc em (2026)",
-    "publish_date": "2026-02-25",
-    "aspect_ratio": "vertical",
-    "track_id": "fhwqvtmgxc",
-    "filename": "fhwqvtmgxc_pixiear_mv_nâng_cao_cảm_xúc_em_(2026)_vertical.mp4",
-    "language": "Việt",
-    "video_id": "5cb6f5905b2e753c6681ae3ca8033c18"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "élève mes émotions (2026)",
-    "publish_date": "2026-02-24",
-    "aspect_ratio": "vertical",
-    "track_id": "fhwqvtmgxc",
-    "filename": "fhwqvtmgxc_pixiear_mv_élève_mes_émotions_(2026)_vertical.mp4",
-    "language": "Français",
-    "video_id": "15434c08bbe2ef28b80b96121b26eb12"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "elevate my emotion (2026)",
-    "publish_date": "2026-02-23",
-    "aspect_ratio": "vertical",
-    "track_id": "fhwqvtmgxc",
-    "filename": "fhwqvtmgxc_pixiear_mv_elevate_my_emotion_(2026)_vertical.mp4",
-    "language": "English",
-    "video_id": "5e66386b0cd056f1427e5b120335d214"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "eleva mi emoción (2026)",
-    "publish_date": "2026-02-22",
-    "aspect_ratio": "vertical",
-    "track_id": "fhwqvtmgxc",
-    "filename": "fhwqvtmgxc_pixiear_mv_eleva_mi_emoción_(2026)_vertical.mp4",
-    "language": "Español",
-    "video_id": "2cebf682c0e0b7655ac952a8e2affeb3"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "尝尝我的爱",
-    "publish_date": "2026-02-21",
-    "aspect_ratio": "vertical",
-    "track_id": "gibznizkkm",
-    "filename": "gibznizkkm_novasyndicate_mv_尝尝我的爱_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "7080f2e83d15d3975017f90a34681376"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Taste my love",
-    "publish_date": "2026-02-20",
-    "aspect_ratio": "vertical",
-    "track_id": "gibznizkkm",
-    "filename": "gibznizkkm_novasyndicate_mv_Taste_my_love_vertical.mp4",
-    "language": "English",
-    "video_id": "378c6407cea97641c4d4d8f553c8051d"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Prueba mi amor",
-    "publish_date": "2026-02-19",
-    "aspect_ratio": "vertical",
-    "track_id": "gibznizkkm",
-    "filename": "gibznizkkm_novasyndicate_mv_Prueba_mi_amor_vertical.mp4",
-    "language": "Español",
-    "video_id": "b66120265a8c809023d9f9af6657ec75"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Hãy cảm nhận",
-    "publish_date": "2026-02-18",
-    "aspect_ratio": "vertical",
-    "track_id": "gibznizkkm",
-    "filename": "gibznizkkm_novasyndicate_mv_Hãy_cảm_nhận_vertical.mp4",
-    "language": "Việt",
-    "video_id": "fad5ce1f68f07cee40210d7cdff44025"
   }
 ]
