@@ -86,14 +86,14 @@ As a member or visitor of idols4life.com, you have choices and rights regarding 
 
 ### If you are a Founder's Circle member:
 - You can **update or cancel your subscription** at any time via the Stripe-managed subscription page linked in your welcome email.
-- If you would like to **request deletion of your membership data**, please contact us at [insert contact email], and we will coordinate with Stripe to process your request, subject to any legal or tax-related retention requirements.
+- If you would like to **request deletion of your membership data**, please contact us at service@idols4life.com, and we will coordinate with Stripe to process your request, subject to any legal or tax-related retention requirements.
 
 ### If you are a site visitor:
 - We do not collect personal data from casual browsing, and we do not use cookies or tracking tools — so there is no personal profile to delete or manage.
 
 We do not send marketing emails, and you will only be contacted for essential membership-related communication if you are part of the Founder's Circle.
 
-If you have questions or concerns about your privacy, feel free to reach out to us anytime at [insert contact email].
+If you have questions or concerns about your privacy, feel free to reach out to us anytime at service@idols4life.com.
 
 ## 7. Changes to This Privacy Policy
 

@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
               li: ({node, ...props}) => <li className="mb-1" {...props} />,
             }}
           >
-            {privacyPolicyText.replace(/\[insert contact email\]/g, 'TODO: Add contact email')}
+            {privacyPolicyText}
           </ReactMarkdown>
         </div>
       </article>

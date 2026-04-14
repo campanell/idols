@@ -16,7 +16,7 @@ export default function TermsOfService() {
               li: ({node, ...props}) => <li className="mb-1" {...props} />,
             }}
           >
-            {termsText.replace(/\[insert contact email\]/g, 'TODO: Add contact email')}
+            {termsText}
           </ReactMarkdown>
         </div>
       </article>
