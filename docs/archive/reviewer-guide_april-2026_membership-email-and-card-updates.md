@@ -161,4 +161,3 @@ Use these prompts during review sessions:
 - [ ] AI prototype endpoint returns expected shape with metrics.
 - [ ] TypeScript migration does not break route behavior.
 - [ ] Runbook and README remain accurate for operators.
-

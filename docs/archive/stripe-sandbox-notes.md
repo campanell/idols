@@ -40,4 +40,3 @@ If you wanted to create Basic and Premium tiers, you could:
 5. Your application checks a customer’s entitlements to determine which features to enable.
 
 For your Discord link: Features are not designed to store URLs. Instead, you could create a feature called `community_access`, attach it to your product, and grant Discord access to customers who have that entitlement. The actual Discord link should be stored in your application or within the product's metadata.
-

@@ -53,32 +53,26 @@ If you have an older local `wrangler.toml`, move it out of this folder to avoid 
    ```bash
    npx wrangler pages dev dist --port 8788
    ```
-5. Start Stripe webhook forwarding in a separate terminal:
+5. Start ngrok in a separate terminal:
    ```bash
-   stripe listen --forward-to http://localhost:8788/api/stripe-webhook
+   ngrok http 8788
    ```
-6. Trigger one event and verify:
-   ```bash
-   stripe trigger checkout.session.completed
-   ```
+6. In Stripe sandbox webhook settings, set endpoint to:
+   `https://<your-ngrok-domain>/api/stripe-webhook`
+7. Trigger one checkout and verify:
    - Expect webhook HTTP 200
    - Expect membership card logs (`card_issued`, then `card_email_sent` or `card_delivery_failed`)
    - Confirm test email delivery/inbox placement
 
 ### Stripe webhook testing (recommended flow)
-Use Stripe CLI forwarding instead of ngrok:
+Use ngrok forwarding for local webhook delivery:
 
 ```bash
-stripe listen --forward-to http://localhost:8788/api/stripe-webhook
+ngrok http 8788
 ```
 
-Then in another terminal, trigger test events:
-
-```bash
-stripe trigger checkout.session.completed
-stripe trigger invoice.paid
-stripe trigger invoice.payment_failed
-```
+Then update Stripe sandbox webhook endpoint to:
+`https://<your-ngrok-domain>/api/stripe-webhook`
 
 Use Stripe test cards in Checkout for end-to-end behavior:
 - `4242 4242 4242 4242` (success)

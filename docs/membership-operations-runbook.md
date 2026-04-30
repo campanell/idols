@@ -125,7 +125,8 @@ Use this order for each end-to-end Phase 3 test so failures are isolated quickly
 
 - [ ] Build app assets: `npm run build`
 - [ ] Start local runtime: `npx wrangler pages dev dist --port 8788`
-- [ ] Start Stripe forwarding: `stripe listen --forward-to http://127.0.0.1:8788/api/stripe-webhook`
+- [ ] Start ngrok tunnel: `ngrok http 8788`
+- [ ] Set Stripe sandbox webhook endpoint to: `https://<your-ngrok-domain>/api/stripe-webhook`
 - [ ] Confirm `.dev.vars` is populated for Stripe + email + card image URL
 - [ ] Confirm `.env.local` contains `VITE_CLOUDFLARE_STREAM_DOMAIN`
 - [ ] Open monitoring surfaces before test:
@@ -220,6 +221,49 @@ curl -X POST "https://<your-domain>/api/membership-card-preview" \
 - Fallback rate (%): ___
 - Error rate (%): ___
 - Estimated cost per generated card: ___
+
+## Stripe Product Catalog Notes (Sandbox Learnings)
+
+These notes capture Stripe product-catalog guidance used during membership setup decisions.
+
+### Metadata (internal-only fields)
+
+Use product metadata for internal references and analytics attributes.
+
+- Metadata is not customer-visible on Checkout.
+- Metadata can be used to organize/query products and store internal identifiers.
+- Stripe limits (per product metadata object):
+  - Up to 50 key-value pairs
+  - Key length up to 40 characters
+  - Value length up to 500 characters
+
+Current project direction:
+- Keep internal attributes in metadata when needed for operations or analytics.
+- Do not rely on metadata for customer-facing content.
+
+### Features / Entitlements
+
+Use product features when you need entitlement-based access control by tier.
+
+- Features represent access capabilities granted to subscribers.
+- A subscriber receives entitlements for features attached to their subscribed product.
+- The same feature can be attached to multiple products.
+
+Tiering example:
+1. Create features such as `basic_access`, `premium_support`, `advanced_reporting`.
+2. Attach only `basic_access` to Basic.
+3. Attach all relevant features to Premium.
+4. Gate app functionality based on customer entitlements.
+
+Current project direction:
+- Features are useful for future tier expansion.
+- Features are not a place to store URLs or freeform notes.
+
+### Discord/community link handling decision
+
+- Do not store Discord/community invite URLs in product features.
+- Prefer application configuration and email templates for customer-facing links.
+- If needed for internal reference only, store link identifiers in metadata.
 
 ## Rollback Guidance
 
