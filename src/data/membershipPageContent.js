@@ -86,7 +86,7 @@ export const membershipContent = {
     },
     {
       q: "Can I get a refund?",
-      a: "All Founders Circle memberships are final and non-refundable because access is limited and exclusive. Please be sure before you join!",
+      a: "All Founders Circle memberships are final and non-refundable, unless required by law, because access is limited and exclusive. Please be sure before you join! For billing questions, contact service@idols4life.com.",
     },
     {
       q: "What if I’m not creative, can I still join?",

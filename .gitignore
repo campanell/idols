@@ -27,8 +27,12 @@ dist-ssr
 .notepads/
 *.code-workspace
 .dev.vars
+.dev.vars.*
+.env
+.env.*
 .cursor/rules/*
 .wrangler/*
 wrangler.toml
+!wrangler.jsonc
 
 # User specific
