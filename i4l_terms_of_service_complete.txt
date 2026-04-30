@@ -10,7 +10,7 @@ I4L Creative Studio is a creative partnership with co-founders based in the Unit
 
 If you do not agree with any part of these Terms, please do not use the Site.
 
-## 2. User Eligibility
+2. User Eligibility
 
 To use idols4life.com, you must be at least 13 years old. If you are under the age of 18, you may only use the Site with the involvement and consent of a parent or legal guardian.
 
@@ -21,7 +21,7 @@ By using this Site, you represent and warrant that:
 
 The Site is intended for fans and viewers from around the world, but access may not be legal by certain persons or in certain countries. You are responsible for ensuring that your use of the Site complies with all laws and regulations applicable to you.
 
-## 3. Memberships and the Founder's Circle
+3. Memberships and the Founder's Circle
 
 At this time, idols4life.com does not require users to create personal accounts to access or view content on the Site.
 
@@ -36,7 +36,7 @@ Participation in the Founder's Circle is voluntary and subject to availability. 
 
 We reserve the right to change, pause, or discontinue the Founder's Circle at any time, with reasonable notice to existing members where possible.
 
-## 4. Acceptable Use
+4. Acceptable Use
 
 We’re building a respectful, creative, and inclusive community around virtual idols. To help maintain that environment, you agree to use idols4life.com only in ways that are lawful and consistent with the spirit of the platform.
 
@@ -50,7 +50,7 @@ You agree not to:
 
 We reserve the right to suspend or permanently block access to the Site for any behavior we determine to be abusive, harmful, or in violation of these Terms.
 
-## 5. Content Ownership
+5. Content Ownership
 
 All videos, music, images, graphics, text, logos, and other content available on idols4life.com (the “Content”) are the property of I4L Creative Studio or its collaborators, and are protected by copyright, trademark, and other intellectual property laws.
 
@@ -60,7 +60,7 @@ This includes the virtual idol characters — Pixie and AR, Nova Syndicate, and 
 
 Any unauthorized use of the Content may result in legal action.
 
-### Fan Content Policy
+Fan Content Policy
 
 We support and encourage non-commercial fan creativity, including fan art, fan fiction, and social media posts that celebrate the I4L idols and their stories. As long as your work:
 - Clearly states that it is unofficial fan content;
@@ -72,7 +72,7 @@ you are welcome to create and share fan content inspired by our virtual idols.
 
 If you are unsure whether your project falls within these guidelines or would like to request special permission, please contact us at service@idols4life.com.
 
-## 6. Intellectual Property
+6. Intellectual Property
 
 The name I4L Creative Studio, the idols Pixie and AR, Nova Syndicate, Imperial Princess, and all logos, taglines, visual identities, and branding associated with idols4life.com are the intellectual property of I4L Creative Studio.
 
@@ -80,30 +80,30 @@ You may not use, copy, imitate, or reproduce any trademarks, logos, or branding 
 
 All rights not expressly granted in these Terms are reserved by I4L Creative Studio.
 
-## 7. Purchases and Payments
+7. Purchases and Payments
 
 All payments for the Founder's Circle membership are processed securely through a third-party payment provider (currently Stripe). By subscribing, you agree to abide by Stripe’s terms and policies in addition to these Terms.
 
-### Membership Details:
-- The Founder's Circle is an annual subscription;
-- By default, your membership will auto-renew each year for your convenience;
-- You may turn off auto-renew at any time by visiting your subscription management page (link provided in your confirmation email);
+Membership Details:
+- The Founder's Circle is an annual membership purchase;
+- Membership is a one-time annual membership purchase and does not auto-renew;
+- We may send occasional email reminders if you want to renew in a future year;
 - Membership is personal and non-transferable;
 - The program is limited to 70 founding members.
 
-### Payment and Confirmation:
+Payment and Confirmation:
 - Prices are displayed in your local currency based on your region, as determined by our payment provider (Stripe);
 - Once your payment is processed, you will receive:
   - A receipt email from our payment provider; and
   - A welcome confirmation email from I4L Creative Studio confirming your membership in the Founder's Circle.
 
-### Refund Policy:
+Refund Policy:
 Due to the limited and exclusive nature of the Founder's Circle, all payments are non-refundable, unless required by law. Please review your purchase carefully before completing checkout.
 For billing questions, please contact service@idols4life.com.
 
 We reserve the right to change pricing, modify membership benefits, or discontinue the program with reasonable notice to active members where possible.
 
-## 8. Termination of Use
+8. Termination of Use
 
 We reserve the right to suspend or terminate your access to idols4life.com at any time, with or without notice, if we believe you have violated these Terms, engaged in harmful behavior, or misused the platform in any way.
 
@@ -115,7 +115,7 @@ You may cancel your membership at any time through your subscription management 
 
 We reserve the right to discontinue or restrict parts of the Site, the Founder's Circle, or any future offerings, and will make reasonable efforts to notify affected members in advance when possible.
 
-## 9. Disclaimers and Limitation of Liability
+9. Disclaimers and Limitation of Liability
 
 The content and services on idols4life.com are provided “as is” and “as available”, without warranties of any kind — express or implied. While we do our best to ensure a reliable and enjoyable experience, we make no guarantees regarding:
 - The availability, accuracy, or completeness of the Site or its content;
@@ -133,13 +133,13 @@ Your sole remedy for dissatisfaction with the Site or any of its services is to 
 
 Some jurisdictions may not allow certain limitations of liability or warranties, in which case portions of this section may not apply to you.
 
-## 10. Governing Law
+10. Governing Law
 
 These Terms are governed by and interpreted in accordance with the laws of the State of Texas, United States, without regard to its conflict of law principles.
 
 You agree to submit to the exclusive jurisdiction of the courts located in Texas for any legal matter arising out of or relating to these Terms or your use of the Site.
 
-## 11. Changes to the Terms
+11. Changes to the Terms
 
 We may update or modify these Terms of Service from time to time to reflect changes in our services, policies, or legal requirements. When we do, we will post the updated Terms on this page and revise the “Effective Date” at the top.
 
