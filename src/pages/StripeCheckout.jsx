@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
-const CheckoutButton = ({ children }) => {
+const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
   const [loading, setLoading] = useState(false);
 
   const handleCheckout = async () => {
@@ -11,7 +13,9 @@ const CheckoutButton = ({ children }) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({}), // Add any necessary data here
+        body: JSON.stringify({
+          cta_variant_id: ctaVariantId ?? null,
+        }),
       });
 
       if (!response.ok) {
@@ -31,13 +35,17 @@ const CheckoutButton = ({ children }) => {
   };
 
   return (
-    <button 
-      onClick={handleCheckout} 
+    <Button
+      onClick={handleCheckout}
       disabled={loading}
-      className={`bg-blue-500 text-white px-4 py-2 rounded ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'}`}
+      className={cn(
+        'bg-[#DB0011] text-white hover:bg-[#b8000e]',
+        className
+      )}
+      {...props}
     >
       {loading ? 'Processing...' : children}
-    </button>
+    </Button>
   );
 };
 

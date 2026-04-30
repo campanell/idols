@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import videoData from "../data/i4l_publish.json";
+import MembershipCTA from "../components/MembershipCTA";
 
 const today = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
-const CLOUDFLARE_STREAM_DOMAIN = "customer-wj5hu7dmirmsu74s.cloudflarestream.com";
+const CLOUDFLARE_STREAM_DOMAIN = import.meta.env.VITE_CLOUDFLARE_STREAM_DOMAIN;
 
 const VideoPlayer = ({ videoId }) => {
   const videoUrl = `https://${CLOUDFLARE_STREAM_DOMAIN}/${videoId}/iframe?poster=${encodeURIComponent(`https://${CLOUDFLARE_STREAM_DOMAIN}/${videoId}/thumbnails/thumbnail.jpg?time=14s`)}`;
@@ -33,31 +34,43 @@ export default function Home() {
 
   return (
     <main className="p-4 sm:p-6 md:p-8 bg-gray-100 space-y-8">
-      <h1 className="text-2xl font-bold text-indigo-800">Today's Music Videos</h1>
+      {/* (Removed "Today's Music Videos" as no longer necessary) */}
 
       {videos.length === 0 ? (
         <p className="text-gray-600">No videos scheduled for today.</p>
       ) : (
-        videos.map((video, index) => {
+        videos.map((video) => {
           console.log('Video ID:', video.video_id);
           return (
             <div
-              key={index}
-              className="bg-white shadow-md rounded-xl p-4 space-y-4 max-w-xl mx-auto"
+              key={video.video_id}
+              className="mx-auto max-w-xl space-y-4 rounded-xl bg-white p-4 shadow-md md:max-w-3xl"
             >
               {/* Cloudflare Stream video */}
-              <div className="aspect-[9/16] w-full overflow-hidden rounded-md relative">
+              <div className="relative aspect-[9/16] w-full overflow-hidden rounded-md">
                 <div className="absolute inset-0">
                   <VideoPlayer videoId={video.video_id} />
                 </div>
               </div>
 
-              {/* Metadata */}
-              <div className="text-sm text-gray-700">
-                <div><strong>{video.roster_idol}</strong> </div>
-                <div><strong>Title:</strong> {video.song_title}</div>
-                <div><strong>Publish Date:</strong> {video.publish_date}</div>
-                <div><strong>Language:</strong> {video.language}</div>
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-6">
+                <div className="min-w-0 text-sm text-gray-700">
+                  <div>
+                    <strong>{video.roster_idol}</strong>
+                  </div>
+                  <div>
+                    <strong>Title:</strong> {video.song_title}
+                  </div>
+                  <div>
+                    <strong>Publish Date:</strong> {video.publish_date}
+                  </div>
+                  <div>
+                    <strong>Language:</strong> {video.language}
+                  </div>
+                </div>
+                <div className="min-w-0">
+                  <MembershipCTA videoId={video.video_id} language="en" />
+                </div>
               </div>
             </div>
           );
