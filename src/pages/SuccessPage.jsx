@@ -1,20 +1,53 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const SuccessPage = () => {
+export default function SuccessPage() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="p-8 bg-white shadow-lg rounded-lg text-center">
-        <h1 className="text-3xl font-bold text-green-600 mb-4">Payment Successful! 🌸 Welcome to the Founders Circle  </h1>
-        <p className="text-gray-700 mb-4">Thank you for your membership. We are honored to have you with us at the very beginning.</p>
-        <p className="text-gray-700 mb-4">You are one of just 70 visionary members who believed in the dream: by 2040, virtual idols will become the cultural icons of a new generation of celebrities, and you're helping make it real. Together, we will shape the next generation of idols, powered by music, story, and your imagination.</p>
-        <p className="text-gray-700 mb-4">Thank you again for believing in this vision.  Check your email for your membership card and access to the Founders Circle Discord community.  Contact us at <a href="mailto:support@idols4life.com">support@idols4life.com</a> if you have any questions.</p>
-        <Link to="/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-          Return to Home
-        </Link>
-      </div>
-    </div>
+    <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">
+      <Card className="mx-auto w-full max-w-2xl">
+        <CardHeader className="space-y-3">
+          <Badge variant="outline" className="h-6 w-fit px-3 text-sm">
+            Payment received
+          </Badge>
+          <CardTitle className="text-xl text-black sm:text-2xl">
+            Welcome to Founders Circle
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4 text-sm text-gray-700 sm:text-base">
+          <p>
+            Your checkout is complete. Thank you for backing the vision and
+            helping shape the future of virtual idols.
+          </p>
+          <div className="space-y-2 rounded-md border border-gray-200 bg-gray-50 p-3">
+            <p className="font-medium text-gray-900">What happens next</p>
+            <p>
+              1) Check your email for your membership confirmation and card
+              details.
+            </p>
+            <p>2) Use the community invite in that message when ready.</p>
+            <p>
+              3) Need help? Reply to that email or contact{" "}
+              <a
+                href="mailto:service@idols4life.com"
+                className="underline hover:text-indigo-700"
+              >
+                service@idols4life.com
+              </a>
+              .
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 pt-1 sm:flex-row">
+            <Button asChild className="sm:w-auto">
+              <Link to="/">Return to Home</Link>
+            </Button>
+            <Button asChild variant="outline" className="sm:w-auto">
+              <Link to="/roster">View Roster</Link>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </main>
   );
-};
-
-export default SuccessPage;
+}
