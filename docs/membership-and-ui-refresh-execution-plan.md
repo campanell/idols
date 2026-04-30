@@ -66,9 +66,9 @@ Refresh `idols4life.com` to improve membership conversion and onboarding quality
 
 | Concern | What to configure |
 |---------|-------------------|
-| Pages + Functions | Build output `dist`; `functions/` for API routes; `wrangler.jsonc` (`pages_build_output_dir`, `send_email` → `EMAIL` binding). |
+| Pages + Functions | Build output `dist`; `functions/` for API routes; `wrangler.jsonc` (`pages_build_output_dir`, `vars`, compatibility settings). |
 | Local dev | `npm run build` then `npx wrangler pages dev dist --port 8788`; secrets in `.dev.vars`. |
-| Email Send | Domain onboarded in dashboard; `EMAIL` binding preferred, or REST: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_EMAIL_FROM`. |
+| Email Send | Domain onboarded in dashboard; use REST credentials for Pages Functions: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_EMAIL_FROM`. |
 | Generic card image | `GENERIC_MEMBERSHIP_CARD_IMAGE_URL` (e.g. Workers public asset or R2 public URL); see `functions/api/stripe-webhook.ts`. |
 | Webhooks in dev | Stripe cannot reach `localhost`; use **ngrok** (or similar) tunnel to `8788`, endpoint `https://<tunnel>/api/stripe-webhook`. |
 | Production | Pages project env vars + secrets in Cloudflare dashboard; live Stripe keys and live `STRIPE_PRICE_ID`. |

@@ -34,9 +34,9 @@ Required:
 - `STRIPE_SECRET_KEY`
 - `SUPPORT_API_TOKEN`
 
-Email path (choose one):
-- Preferred: Worker `EMAIL` binding
-- Fallback REST: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_EMAIL_FROM`
+Email path for Pages Functions:
+- REST send credentials: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_EMAIL_FROM`
+- Note: Pages configuration does not support `send_email` bindings in `wrangler.jsonc`.
 
 Optional:
 - `DISCORD_COMMUNITY_INVITE_URL`

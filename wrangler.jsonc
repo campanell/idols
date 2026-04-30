@@ -4,12 +4,6 @@
   "pages_build_output_dir": "dist",
   "compatibility_date": "2026-04-21",
   "compatibility_flags": ["nodejs_compat"],
-  "send_email": [
-    {
-      "name": "EMAIL",
-      "remote": true
-    }
-  ],
   "vars": {
     "ENVIRONMENT": "development"
   }

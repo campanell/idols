@@ -25,7 +25,7 @@
    ```bash
    npm run build
    ```
-5. Run Cloudflare Pages Functions locally (uses `wrangler.jsonc` bindings, including `EMAIL`):
+5. Run Cloudflare Pages Functions locally (uses `wrangler.jsonc` bindings):
    ```bash
    npx wrangler pages dev dist --port 8788
    ```
