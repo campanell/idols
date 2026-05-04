@@ -20,6 +20,32 @@ Related test document:
 - `GET /api/membership-card-status`
 - `POST /api/membership-card-preview` (optional; see appendix — not part of live onboarding)
 
+## CTA variant id (`cta_variant_id`) and conversion analytics
+
+**Purpose:** Tie completed checkouts to which **membership CTA copy variant** the shopper saw on Home (variant ids in `src/data/membershipCtaVariants.json`). Use this for **conversion analytics** and funnel reporting.
+
+**Not used for customer support:** Support workflows in this runbook rely on **Customer** metadata (for example `membership_card_id`, `membership_card_status`). Do not expect `cta_variant_id` there unless you add a future webhook change to copy it.
+
+### Where Stripe stores it
+
+| Stripe object | Field | Set by |
+|---------------|--------|--------|
+| **Checkout Session** | `metadata.cta_variant_id` | `functions/api/stripe.ts` when creating the session from `POST /api/stripe` body `cta_variant_id` (sent from Home via `MembershipCTA` → `StripeCheckout`) |
+| Customer / Subscription | *(not set today)* | Webhook only writes `membership_card_*` keys in `functions/api/stripe-webhook.ts` |
+
+### How to access it
+
+1. **Dashboard:** **Payments** → open the payment → **Checkout Session** (`cs_...`) → **Metadata** → `cta_variant_id`.
+2. **Events:** **Developers** → **Events** → `checkout.session.completed` → payload `data.object.metadata.cta_variant_id`.
+3. **API:** [Retrieve Checkout Session](https://docs.stripe.com/api/checkout/sessions/retrieve) `GET /v1/checkout/sessions/{SESSION_ID}` — read `metadata.cta_variant_id`. For bulk analysis, use [List checkout sessions](https://docs.stripe.com/api/checkout/sessions/list) or your own exports.
+4. **Stripe CLI:** `stripe checkout sessions retrieve cs_...` (use test or live key to match the session) and inspect `metadata.cta_variant_id`.
+5. **Future Scope:** R script conversion analytics.  Use the Stripe API
+
+### Troubleshooting
+
+- Missing `cta_variant_id` on the session: confirm the Home CTA still POSTs `cta_variant_id` in `/api/stripe` and watch for `checkout-metadata-warning` in function logs.
+- Analytics pipelines: join on **Checkout Session id** (`cs_...`) or correlate via **Customer**/**Subscription** ids from the same session when building reports.
+
 ## UX/Route context for operations
 
 Operationally relevant entry points in current app state:

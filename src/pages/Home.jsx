@@ -2,10 +2,24 @@ import { useEffect, useState } from "react";
 import videoData from "../data/i4l_publish.json";
 import MembershipCTA from "../components/MembershipCTA";
 
+/**
+ * Purpose:
+ * Renders the home feed of currently publishable vertical videos and
+ * pairs each video with metadata plus the membership CTA rail.
+ *
+ * Important functions:
+ * - VideoPlayer({ videoId }):
+ *   Builds the Cloudflare Stream iframe URL and renders the embedded player.
+ * - Home():
+ *   Filters scheduled video data for today's visible feed and renders
+ *   responsive video cards with checkout entry points.
+ */
+
 const today = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
 const CLOUDFLARE_STREAM_DOMAIN = import.meta.env.VITE_CLOUDFLARE_STREAM_DOMAIN;
 
 const VideoPlayer = ({ videoId }) => {
+  // Build a stable Cloudflare Stream embed URL with a fixed poster frame.
   const videoUrl = `https://${CLOUDFLARE_STREAM_DOMAIN}/${videoId}/iframe?poster=${encodeURIComponent(`https://${CLOUDFLARE_STREAM_DOMAIN}/${videoId}/thumbnails/thumbnail.jpg?time=14s`)}`;
   
   return (
@@ -24,7 +38,7 @@ export default function Home() {
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
-    // Filter videos by today's publish date
+    // Only show videos that are published and optimized for this vertical feed layout.
     const todaysVideos = videoData.filter(
         video => video.publish_date <= today && video.aspect_ratio === "vertical"
       );
@@ -69,6 +83,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="min-w-0">
+                  {/* Membership rail sits beside metadata on md+ screens for quicker checkout entry. */}
                   <MembershipCTA videoId={video.video_id} language="en" />
                 </div>
               </div>

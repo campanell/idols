@@ -1,6 +1,16 @@
 import React from "react";
 import termsText from "../../i4l_terms_of_service_complete.txt?raw";
 
+/**
+ * Purpose:
+ * Renders the Terms of Service from the canonical raw text source file.
+ *
+ * Important functions:
+ * - TermsOfService():
+ *   Normalizes line breaks/numbered sections for readability, then renders
+ *   the terms content in a styled article container.
+ */
+
 export default function TermsOfService() {
   const normalizedTermsText = termsText
     .replace(/\r\n/g, "\n")

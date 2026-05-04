@@ -1,6 +1,16 @@
 import React from "react";
 import privacyPolicyText from "../../i4l_privacy_policy.txt?raw";
 
+/**
+ * Purpose:
+ * Renders the Privacy Policy from the canonical raw text source file.
+ *
+ * Important functions:
+ * - PrivacyPolicy():
+ *   Normalizes line breaks/numbered sections for readability, then renders
+ *   the policy content in a styled article container.
+ */
+
 export default function PrivacyPolicy() {
   const normalizedPrivacyPolicyText = privacyPolicyText
     .replace(/\r\n/g, "\n")

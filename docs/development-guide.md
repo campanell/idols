@@ -115,3 +115,6 @@ Use Stripe test cards in Checkout for end-to-end behavior:
   - test: `sk_test_*`, test `price_*`
   - live: `sk_live_*`, live `price_*`
 - Always restart Wrangler after changing `.dev.vars`.
+
+## Stripe Production Transition
+- Use `docs/stripe-production-transition-checklist.md` as the execution checklist for sandbox rehearsal, live cutover, and rollback readiness.

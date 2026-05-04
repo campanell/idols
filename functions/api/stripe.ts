@@ -1,5 +1,16 @@
 import type StripeConstructor from "stripe";
 
+/**
+ * Purpose:
+ * Creates Stripe Checkout Sessions for the membership purchase flow.
+ *
+ * Important functions:
+ * - onRequest(context):
+ *   Handles CORS preflight + POST requests, validates Stripe env vars,
+ *   parses optional CTA metadata, creates a subscription Checkout Session,
+ *   and returns the hosted Checkout URL/session id.
+ */
+
 type Env = {
   STRIPE_SECRET_KEY?: string;
   STRIPE_PRICE_ID?: string;
@@ -54,6 +65,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
 
     const stripe = new Stripe(context.env.STRIPE_SECRET_KEY);
     const isProduction = context.env.ENVIRONMENT === "production";
+    // In local/dev, derive base URL from Host; in production, APP_BASE_URL is preferred.
     const protocol = isProduction ? "https" : "http";
     const host = context.request.headers.get("Host");
     const baseUrl = context.env.APP_BASE_URL || (host ? `${protocol}://${host}` : null);
@@ -111,6 +123,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
       mode: "subscription",
       success_url: `${baseUrl}/success`,
       cancel_url: `${baseUrl}/cancel`,
+      // Metadata enables downstream webhook analytics and attribution without custom storage.
       metadata: ctaVariantId ? { cta_variant_id: ctaVariantId } : undefined,
     });
 

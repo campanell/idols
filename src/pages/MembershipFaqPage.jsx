@@ -1,5 +1,14 @@
 import MembershipFaqAccordion from "@/components/MembershipFaqAccordion";
 
+/**
+ * Purpose:
+ * Hosts the membership FAQ page and renders the accordion-based Q&A module.
+ *
+ * Important functions:
+ * - MembershipFaqPage():
+ *   Page component that provides layout, page title, and FAQ section framing.
+ */
+
 export default function MembershipFaqPage() {
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">

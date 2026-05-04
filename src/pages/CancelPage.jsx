@@ -4,6 +4,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import CheckoutButton from "./StripeCheckout";
 
+/**
+ * Purpose:
+ * Handles canceled/failed checkout returns and offers retry options.
+ *
+ * Important functions:
+ * - CancelPage():
+ *   Page component that explains why payment may not have completed,
+ *   provides support contact details, and includes retry/home actions.
+ */
+
 export default function CancelPage() {
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">

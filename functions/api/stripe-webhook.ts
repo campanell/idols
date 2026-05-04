@@ -1,3 +1,25 @@
+/**
+ * Purpose:
+ * Processes Stripe webhook events for completed membership checkouts,
+ * issues membership card metadata, and sends onboarding email.
+ *
+ * Important functions:
+ * - onRequest(context):
+ *   Entry point for webhook delivery; handles CORS/method checks, parses
+ *   Stripe event payload, and executes checkout completion workflow.
+ * - createMembershipCard(session):
+ *   Builds a normalized membership-card object (id, tier, validity dates).
+ * - createEmailPayload(args):
+ *   Produces text/html transactional email content for new members.
+ * - sendCloudflareEmail(context, payload):
+ *   Sends via Cloudflare EMAIL binding first, then REST fallback.
+ * - upsertMembershipCardStatus(context, payload):
+ *   Logs status and persists card/email lifecycle metadata to Stripe
+ *   Customer/Subscription records for support visibility.
+ * - truncateMetadataValue(value):
+ *   Ensures metadata strings stay within Stripe metadata size constraints.
+ */
+
 type Env = {
   DISCORD_COMMUNITY_INVITE_URL?: string;
   GENERIC_MEMBERSHIP_CARD_IMAGE_URL?: string;
@@ -74,6 +96,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     await upsertMembershipCardStatus(context, {
       customerId,
       subscriptionId,
+      // First write captures issuance even if email delivery later fails.
       status: "card_issued",
       card,
       emailStatus: "pending",
@@ -96,6 +119,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     await upsertMembershipCardStatus(context, {
       customerId,
       subscriptionId,
+      // Second write records final delivery state for support and operational runbooks.
       status: emailResult.ok ? "card_email_sent" : "card_delivery_failed",
       card,
       emailStatus: emailResult.ok ? "sent" : "failed",
@@ -192,11 +216,13 @@ async function sendCloudflareEmail(
   payload: Record<string, unknown>,
 ): Promise<{ ok: boolean; messageId?: string | null; error?: string }> {
   try {
+    // Preferred path: native EMAIL binding for Cloudflare Email Workers runtime.
     if (context.env.EMAIL && typeof context.env.EMAIL.send === "function") {
       const result = await context.env.EMAIL.send(payload);
       return { ok: true, messageId: result?.id || result?.messageId || null };
     }
 
+    // Fallback path: REST API send for environments where binding is unavailable.
     if (
       context.env.CLOUDFLARE_ACCOUNT_ID &&
       context.env.CLOUDFLARE_API_TOKEN &&
@@ -274,6 +300,7 @@ async function upsertMembershipCardStatus(
     const stripe = new Stripe(context.env.STRIPE_SECRET_KEY);
 
     const metadata = {
+      // Keep metadata keys stable so support tooling can reliably parse status history.
       membership_card_status: payload.status,
       membership_card_id: payload.card.cardId,
       membership_card_tier: payload.card.membershipTier,

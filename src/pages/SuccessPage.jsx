@@ -3,6 +3,16 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+/**
+ * Purpose:
+ * Shows post-checkout confirmation details after a successful Stripe payment.
+ *
+ * Important functions:
+ * - SuccessPage():
+ *   Page component that confirms payment success, explains next steps,
+ *   and provides navigation back to Home/Roster.
+ */
+
 export default function SuccessPage() {
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">

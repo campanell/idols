@@ -1,3 +1,20 @@
+/**
+ * Purpose:
+ * Generates a preview payload for personalized membership card messaging.
+ * Uses AI Gateway when configured, otherwise returns deterministic fallback.
+ *
+ * Important functions:
+ * - onRequest(context):
+ *   Handles POST preview requests, validates/parses input, calls AI Gateway
+ *   when available, and returns structured preview + metrics response.
+ * - buildFallbackMessage(args):
+ *   Creates a stable non-AI message used for local/dev and failure paths.
+ * - jsonResponse(payload, status):
+ *   Standard JSON response helper with shared CORS headers.
+ * - corsHeaders():
+ *   Returns CORS headers used by OPTIONS and JSON responses.
+ */
+
 type Env = {
   AI_GATEWAY_URL?: string;
   AI_GATEWAY_API_KEY?: string;
@@ -39,6 +56,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
   const locale = (requestBody.locale || "en-US").trim();
   const fallbackMessage = buildFallbackMessage({ memberName, tier, favoriteGenre });
 
+  // Degrade gracefully in local/dev if AI Gateway is not configured yet.
   if (!context.env.AI_GATEWAY_URL || !context.env.AI_GATEWAY_API_KEY || !context.env.AI_MODEL) {
     return jsonResponse({
       mode: "fallback",
@@ -71,6 +89,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
   ].join("\n");
 
   try {
+    // Gateway call mirrors OpenAI-compatible chat payload shape.
     const aiResponse = await fetch(context.env.AI_GATEWAY_URL, {
       method: "POST",
       headers: {
@@ -90,6 +109,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
 
     const aiBody = (await aiResponse.json()) as any;
     if (!aiResponse.ok) {
+      // Preserve deterministic fallback output so UI/testing flow can continue.
       return jsonResponse({
         mode: "fallback_after_error",
         prototype_card: {

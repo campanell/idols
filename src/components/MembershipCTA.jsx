@@ -8,6 +8,21 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+/**
+ * Purpose:
+ * Renders the compact membership call-to-action rail used on video cards.
+ *
+ * Important functions:
+ * - hashString(value):
+ *   Produces a deterministic numeric hash from a string seed.
+ * - pickVariant(seed, language):
+ *   Selects a CTA variant by language with English fallback, then uses
+ *   deterministic hashing to keep variant selection stable per card.
+ * - MembershipCTA({ videoId, language }):
+ *   Resolves the CTA variant for the current card and renders headline,
+ *   bullets, and Checkout button with variant attribution metadata.
+ */
+
 function hashString(value) {
   let hash = 0;
   for (let i = 0; i < value.length; i += 1) {
@@ -18,6 +33,7 @@ function hashString(value) {
 }
 
 function pickVariant(seed, language = "en") {
+  // Prefer language-specific variants, but always fall back to English to avoid empty CTAs.
   const languageMatches = membershipCtaVariants.filter(
     (variant) => variant.language === language
   );
@@ -29,6 +45,7 @@ function pickVariant(seed, language = "en") {
     return null;
   }
 
+  // Deterministic selection prevents CTA jitter across re-renders for the same card.
   const variantIndex = hashString(seed) % variants.length;
   return variants[variantIndex];
 }

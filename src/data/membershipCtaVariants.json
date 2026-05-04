@@ -7,7 +7,7 @@
       "Help steer stories and releases from day one",
       "Join our private studio-to-member Discord space"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   },
   {
     "id": "en-community-builders",
@@ -17,7 +17,7 @@
       "Support our studio with a real annual membership",
       "Get insider updates and shape what launches next"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   },
   {
     "id": "en-first-wave",
@@ -27,7 +27,7 @@
       "Unlock private behind-the-scenes access",
       "Add your voice to the future idol roadmap"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   },
   {
     "id": "en-serious-fans",
@@ -37,7 +37,7 @@
       "Back the idols with an annual paid membership",
       "Co-create with our community, not just watch from afar"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   },
   {
     "id": "en-roster-insiders",
@@ -47,7 +47,7 @@
       "See what our studio is creating before public drops",
       "Join our members-only community shaping the idols"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   },
   {
     "id": "en-founders-circle",
@@ -57,6 +57,6 @@
       "Help guide the next generation of virtual idols",
       "Receive your digital proof you were here first"
     ],
-    "buttonText": "Claim My Founders Card"
+    "buttonText": "Purchase Annual Membership"
   }
 ]

@@ -1,5 +1,25 @@
 import type StripeConstructor from "stripe";
 
+/**
+ * Purpose:
+ * Provides support-only lookup of a member's card lifecycle status from Stripe metadata.
+ *
+ * Important functions:
+ * - onRequest(context):
+ *   Validates support token, accepts customer_id or email query params,
+ *   retrieves the Stripe customer, and returns normalized card status fields.
+ * - findCustomerByEmail(stripe, email):
+ *   Support helper that resolves first matching customer for email lookups.
+ * - pickCardStatus(metadata):
+ *   Maps Stripe metadata keys into a stable JSON response shape.
+ * - isAuthorizedSupportRequest(request, expectedToken):
+ *   Enforces support endpoint access via shared token header.
+ * - jsonResponse(payload, status):
+ *   Standard JSON response helper with consistent CORS behavior.
+ * - corsHeaders():
+ *   Returns CORS headers for GET support requests and preflight handling.
+ */
+
 type Env = {
   SUPPORT_API_TOKEN?: string;
   STRIPE_SECRET_KEY?: string;
@@ -46,6 +66,7 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     const stripe = new Stripe(context.env.STRIPE_SECRET_KEY);
     const customer = customerId
       ? await stripe.customers.retrieve(customerId)
+      // Support fallback path allows lookups when only customer email is available.
       : await findCustomerByEmail(stripe, email);
 
     if (!customer || "deleted" in customer) {
