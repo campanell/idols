@@ -15,7 +15,7 @@
  *   Sends via Cloudflare EMAIL binding first, then REST fallback.
  * - upsertMembershipCardStatus(context, payload):
  *   Logs status and persists card/email lifecycle metadata to Stripe
- *   Customer/Subscription records for support visibility.
+ *   Customer (and Subscription when present) records for support visibility.
  * - truncateMetadataValue(value):
  *   Ensures metadata strings stay within Stripe metadata size constraints.
  */

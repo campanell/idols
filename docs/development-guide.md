@@ -110,7 +110,12 @@ Use Stripe test cards in Checkout for end-to-end behavior:
 
 ## Working with secrets
 - Use `.dev.vars` for local dev secrets with Wrangler.
-- Use Cloudflare Pages/Workers project secrets for production and preview.
+- Use Cloudflare Pages/Workers project **Secrets** (encrypted) in the dashboard for values that must never be committed, for example:
+  - `STRIPE_SECRET_KEY`
+  - `CLOUDFLARE_API_TOKEN`
+  - `SUPPORT_API_TOKEN` (if you use the support status API)
+- If Cloudflare shows that **environment variables are managed through Wrangler**, **plaintext** values for Pages Functions are read from **`wrangler.jsonc`** (`vars` and `env.production.vars`), not from dashboard text fields. Dashboard plaintext entries for those names can be ignored or overwritten on deploy.
+- Put **non-secret** Function configuration in `wrangler.jsonc` (e.g. `STRIPE_PRICE_ID`, `APP_BASE_URL`, `DISCORD_COMMUNITY_INVITE_URL`, `GENERIC_MEMBERSHIP_CARD_IMAGE_URL`, `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_EMAIL_FROM`). Use **`env.production.vars`** for live-site values (e.g. live `STRIPE_PRICE_ID` and `https://idols4life.com`).
 - Keep test and live Stripe variables separate:
   - test: `sk_test_*`, test `price_*`
   - live: `sk_live_*`, live `price_*`

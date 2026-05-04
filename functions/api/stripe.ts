@@ -7,7 +7,7 @@ import type StripeConstructor from "stripe";
  * Important functions:
  * - onRequest(context):
  *   Handles CORS preflight + POST requests, validates Stripe env vars,
- *   parses optional CTA metadata, creates a subscription Checkout Session,
+ *   parses optional CTA metadata, creates a one-time payment Checkout Session,
  *   and returns the hosted Checkout URL/session id.
  */
 
@@ -120,7 +120,8 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [{ price: priceId, quantity: 1 }],
-      mode: "subscription",
+      mode: "payment",
+      customer_creation: "always",
       success_url: `${baseUrl}/success`,
       cancel_url: `${baseUrl}/cancel`,
       // Metadata enables downstream webhook analytics and attribution without custom storage.

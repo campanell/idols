@@ -17,9 +17,11 @@ import { cn } from '@/lib/utils';
 
 const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleCheckout = async () => {
     setLoading(true);
+    setError(null);
     try {
       // Send CTA variant ID context so backend can persist conversion attribution metadata.  ID is used to track the conversion message from data/membershipCtaVariants.json
       const response = await fetch('/api/stripe', {
@@ -32,34 +34,58 @@ const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
         }),
       });
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
+      const raw = await response.text();
+      let data = {};
+      try {
+        data = raw ? JSON.parse(raw) : {};
+      } catch {
+        data = {};
       }
 
-      const data = await response.json();
-      
-      // Redirect to Stripe Checkout
+      if (!response.ok) {
+        const msg =
+          typeof data.error === 'string'
+            ? data.error
+            : `Checkout could not start (${response.status}).`;
+        setError(msg);
+        return;
+      }
+
+      if (!data.url || typeof data.url !== 'string') {
+        setError('Checkout did not return a payment link. Check Stripe and server configuration.');
+        return;
+      }
+
       window.location.href = data.url;
-    } catch (error) {
-      console.error('Error:', error);
-      // Handle error (e.g., show error message to user)
+    } catch (err) {
+      console.error('Checkout error:', err);
+      setError(
+        err instanceof Error ? err.message : 'Something went wrong starting checkout.',
+      );
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <Button
-      onClick={handleCheckout}
-      disabled={loading}
-      className={cn(
-        'bg-[#DB0011] text-white hover:bg-[#b8000e]',
-        className
-      )}
-      {...props}
-    >
-      {loading ? 'Processing...' : children}
-    </Button>
+    <div className="flex w-full flex-col gap-2">
+      <Button
+        onClick={handleCheckout}
+        disabled={loading}
+        className={cn(
+          'bg-[#DB0011] text-white hover:bg-[#b8000e]',
+          className
+        )}
+        {...props}
+      >
+        {loading ? 'Processing...' : children}
+      </Button>
+      {error ? (
+        <p className="text-center text-sm text-red-700" role="alert">
+          {error}
+        </p>
+      ) : null}
+    </div>
   );
 };
 
