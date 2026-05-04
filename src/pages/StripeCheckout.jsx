@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
-const CheckoutButton = ({ children }) => {
+/**
+ * Purpose:
+ * Provides the reusable checkout button used across pages/components to
+ * start Stripe Checkout through the `/api/stripe` endpoint.
+ *
+ * Important functions:
+ * - handleCheckout():
+ *   Sends optional CTA attribution metadata to the backend, receives the
+ *   hosted Checkout URL, and redirects the browser to Stripe Checkout.
+ * - CheckoutButton(props):
+ *   UI wrapper around the button with loading state and shared styling.
+ */
+
+const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
   const [loading, setLoading] = useState(false);
 
   const handleCheckout = async () => {
     setLoading(true);
     try {
+      // Send CTA variant ID context so backend can persist conversion attribution metadata.  ID is used to track the conversion message from data/membershipCtaVariants.json
       const response = await fetch('/api/stripe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({}), // Add any necessary data here
+        body: JSON.stringify({
+          cta_variant_id: ctaVariantId ?? null,
+        }),
       });
 
       if (!response.ok) {
@@ -31,13 +49,17 @@ const CheckoutButton = ({ children }) => {
   };
 
   return (
-    <button 
-      onClick={handleCheckout} 
+    <Button
+      onClick={handleCheckout}
       disabled={loading}
-      className={`bg-blue-500 text-white px-4 py-2 rounded ${loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'}`}
+      className={cn(
+        'bg-[#DB0011] text-white hover:bg-[#b8000e]',
+        className
+      )}
+      {...props}
     >
       {loading ? 'Processing...' : children}
-    </button>
+    </Button>
   );
 };
 

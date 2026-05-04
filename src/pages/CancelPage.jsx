@@ -1,18 +1,56 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import CheckoutButton from "./StripeCheckout";
 
-const CancelPage = () => {
+/**
+ * Purpose:
+ * Handles canceled/failed checkout returns and offers retry options.
+ *
+ * Important functions:
+ * - CancelPage():
+ *   Page component that explains why payment may not have completed,
+ *   provides support contact details, and includes retry/home actions.
+ */
+
+export default function CancelPage() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <div className="p-8 bg-white shadow-lg rounded-lg text-center">
-        <h1 className="text-3xl font-bold text-red-600 mb-4">Payment Not Approved</h1>
-        <p className="text-gray-700 mb-4">Your payment was not approved.  There are several reasons this might happen.  If you have any questions, please contact our support team at <a href="mailto:support@idols4life.com">support@idols4life.com</a>.</p>
-        <Link to="/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-          Return to Home
-        </Link>
-      </div>
-    </div>
+    <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">
+      <Card className="mx-auto w-full max-w-2xl">
+        <CardHeader className="space-y-3">
+          <Badge variant="outline" className="h-6 w-fit px-3 text-sm">
+            Checkout canceled
+          </Badge>
+          <CardTitle className="text-xl text-black sm:text-2xl">
+            Your payment was not completed
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4 text-sm text-gray-700 sm:text-base">
+          <p>
+            No charge was completed. This can happen if checkout was canceled,
+            interrupted, or rejected by the card issuer.
+          </p>
+          <p>
+            If you need help, contact{" "}
+            <a
+              href="mailto:service@idols4life.com"
+              className="underline hover:text-indigo-700"
+            >
+              service@idols4life.com
+            </a>
+            . You can also return home and try again later.
+          </p>
+          <div className="flex flex-col gap-2 pt-1 sm:flex-row">
+            <CheckoutButton className="w-full justify-center sm:w-auto">
+              Try Checkout Again
+            </CheckoutButton>
+            <Button asChild variant="outline" className="sm:w-auto">
+              <Link to="/">Return to Home</Link>
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </main>
   );
-};
-
-export default CancelPage;
+}

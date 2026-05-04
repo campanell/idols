@@ -1,0 +1,62 @@
+[
+  {
+    "id": "en-early-access",
+    "language": "en",
+    "headline": "Get In Before The Crowd.",
+    "bullets": [
+      "Help steer stories and releases from day one",
+      "Join our private studio-to-member Discord space"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  },
+  {
+    "id": "en-community-builders",
+    "language": "en",
+    "headline": "Join The Paid Founders Community.",
+    "bullets": [
+      "Support our studio with a real annual membership",
+      "Get insider updates and shape what launches next"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  },
+  {
+    "id": "en-first-wave",
+    "language": "en",
+    "headline": "Be Part Of The First Wave.",
+    "bullets": [
+      "Unlock private behind-the-scenes access",
+      "Add your voice to the future idol roadmap"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  },
+  {
+    "id": "en-serious-fans",
+    "language": "en",
+    "headline": "For Fans Who Want Real Influence.",
+    "bullets": [
+      "Back the idols with an annual paid membership",
+      "Co-create with our community, not just watch from afar"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  },
+  {
+    "id": "en-roster-insiders",
+    "language": "en",
+    "headline": "Get Closer To The Roster.",
+    "bullets": [
+      "See what our studio is creating before public drops",
+      "Join our members-only community shaping the idols"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  },
+  {
+    "id": "en-founders-circle",
+    "language": "en",
+    "headline": "Claim Your Place In Founders Circle.",
+    "bullets": [
+      "Help guide the next generation of virtual idols",
+      "Receive your digital proof you were here first"
+    ],
+    "buttonText": "Purchase Annual Membership"
+  }
+]

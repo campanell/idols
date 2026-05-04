@@ -1,5 +1,15 @@
-// src/pages/Roster.jsx
 import rosterData from '../data/i4l_roster_page_2025-04-20.json';
+
+/**
+ * Purpose:
+ * Displays the roster directory by grouping idols into roster sections.
+ *
+ * Important functions:
+ * - getBorderColorClass(colorTheme):
+ *   Returns a border utility class for themed member cards.
+ * - Roster():
+ *   Groups roster data and renders each roster section and member card grid.
+ */
 
 const getBorderColorClass = (colorTheme) => {
   return `border-${colorTheme}`;
