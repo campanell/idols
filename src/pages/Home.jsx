@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import videoData from "../data/i4l_publish.json";
 import MembershipCTA from "../components/MembershipCTA";
+import { CLOUDFLARE_STREAM_DOMAIN_FALLBACK } from "@/config/cloudflareStreamDomain";
 
 /**
  * Purpose:
@@ -16,7 +17,8 @@ import MembershipCTA from "../components/MembershipCTA";
  */
 
 const today = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
-const CLOUDFLARE_STREAM_DOMAIN = import.meta.env.VITE_CLOUDFLARE_STREAM_DOMAIN;
+const CLOUDFLARE_STREAM_DOMAIN =
+  import.meta.env.VITE_CLOUDFLARE_STREAM_DOMAIN || CLOUDFLARE_STREAM_DOMAIN_FALLBACK;
 
 const VideoPlayer = ({ videoId }) => {
   // Build a stable Cloudflare Stream embed URL with a fixed poster frame.

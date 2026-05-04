@@ -5,6 +5,15 @@
   "compatibility_date": "2026-04-21",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "ENVIRONMENT": "development"
+    "ENVIRONMENT": "development",
+    "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com"
+  },
+  "env": {
+    "production": {
+      "vars": {
+        "ENVIRONMENT": "production",
+        "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com"
+      }
+    }
   }
 }
