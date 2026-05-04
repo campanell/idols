@@ -6,13 +6,20 @@
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
     "ENVIRONMENT": "development",
-    "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com"
+    "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com",
+    "STRIPE_PRICE_ID": "price_1Racac181QYpdZjWNo6YgqHk"
   },
   "env": {
     "production": {
       "vars": {
         "ENVIRONMENT": "production",
-        "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com"
+        "VITE_CLOUDFLARE_STREAM_DOMAIN": "customer-wj5hu7dmirmsu74s.cloudflarestream.com",
+        "STRIPE_PRICE_ID": "price_1TRVcZP3lqE87V9I6V1D2B9d",
+        "APP_BASE_URL": "https://idols4life.com",
+        "DISCORD_COMMUNITY_INVITE_URL": "https://discord.gg/4CZfurHb9b",
+        "GENERIC_MEMBERSHIP_CARD_IMAGE_URL": "https://public-images.campanell.workers.dev/i4lmember.jpg",
+        "CLOUDFLARE_ACCOUNT_ID": "8939866a0fbb2220fc30568e0462aa23",
+        "CLOUDFLARE_EMAIL_FROM": "service@idols4life.com"
       }
     }
   }
