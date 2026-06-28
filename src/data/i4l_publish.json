@@ -1,5 +1,75 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "仍闻她步声",
+    "publish_date": "2026-07-02",
+    "aspect_ratio": "vertical",
+    "track_id": "btxwgivkzv",
+    "filename": "btxwgivkzv_imperialprincess_mv_仍闻她步声_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "78cfee43997ef155238113e123f38512"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Her trials carve lasting legend",
+    "publish_date": "2026-07-01",
+    "aspect_ratio": "vertical",
+    "track_id": "btxwgivkzv",
+    "filename": "btxwgivkzv_imperialprincess_mv_Her_trials_carve_lasting_legend_vertical.mp4",
+    "language": "English",
+    "video_id": "2f1c2b2c48cfd2205b3b5ed91b61c65d"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "清晨的爱",
+    "publish_date": "2026-06-30",
+    "aspect_ratio": "vertical",
+    "track_id": "ynrwugawbb",
+    "filename": "ynrwugawbb_novasyndicate_mv_清晨的爱_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "c3f9dd5c370f35d222e7fdb94a0510fe"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Tình yêu ban mai",
+    "publish_date": "2026-06-29",
+    "aspect_ratio": "vertical",
+    "track_id": "ynrwugawbb",
+    "filename": "ynrwugawbb_novasyndicate_mv_Tình_yêu_ban_mai_vertical.mp4",
+    "language": "Việt",
+    "video_id": "1e4b8ce7057e2800703fae6fae31efb7"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "morning love",
+    "publish_date": "2026-06-28",
+    "aspect_ratio": "vertical",
+    "track_id": "ynrwugawbb",
+    "filename": "ynrwugawbb_novasyndicate_mv_morning_love_vertical.mp4",
+    "language": "English",
+    "video_id": "0e72a3f9ec0190457f5e3e898f19b185"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Amour du matin",
+    "publish_date": "2026-06-27",
+    "aspect_ratio": "vertical",
+    "track_id": "ynrwugawbb",
+    "filename": "ynrwugawbb_novasyndicate_mv_Amour_du_matin_vertical.mp4",
+    "language": "Français",
+    "video_id": "6283370114a84f2b6f5c2380518abb8f"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Amor de mañana",
+    "publish_date": "2026-06-26",
+    "aspect_ratio": "vertical",
+    "track_id": "ynrwugawbb",
+    "filename": "ynrwugawbb_novasyndicate_mv_Amor_de_mañana_vertical.mp4",
+    "language": "Español",
+    "video_id": "07e3d56c1a081b41b0fb2b71b981018d"
+  },
+  {
     "roster_idol": "Nova Syndicate",
     "song_title": "梦境乐园",
     "publish_date": "2026-06-25",
@@ -628,75 +698,5 @@
     "filename": "qqmjgcujvu_pixiear_mv_all_the_time_vertical.mp4",
     "language": "English",
     "video_id": "40b665b78ca8f0da50fa5375a1b6db25"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "众声归帝意",
-    "publish_date": "2026-04-23",
-    "aspect_ratio": "vertical",
-    "track_id": "ofrtzumgua",
-    "filename": "ofrtzumgua_imperialprincess_mv_众声归帝意_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "556f0011f508d5e8093356dc8031c939"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "All praise returns to Emperor",
-    "publish_date": "2026-04-22",
-    "aspect_ratio": "vertical",
-    "track_id": "ofrtzumgua",
-    "filename": "ofrtzumgua_imperialprincess_mv_All_praise_returns_to_Emperor_vertical.mp4",
-    "language": "English",
-    "video_id": "db3a1735e7ad9873ee022e44b7443175"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "一夜",
-    "publish_date": "2026-04-21",
-    "aspect_ratio": "vertical",
-    "track_id": "jqdflbihom",
-    "filename": "jqdflbihom_novasyndicate_mv_一夜_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "7193dc3d1beeb946cc5135591dcfd698"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Une nuit",
-    "publish_date": "2026-04-20",
-    "aspect_ratio": "vertical",
-    "track_id": "jqdflbihom",
-    "filename": "jqdflbihom_novasyndicate_mv_Une_nuit_vertical.mp4",
-    "language": "Français",
-    "video_id": "54fdc880de99d13f6cc1dc4233472fd6"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Una noche",
-    "publish_date": "2026-04-19",
-    "aspect_ratio": "vertical",
-    "track_id": "jqdflbihom",
-    "filename": "jqdflbihom_novasyndicate_mv_Una_noche_vertical.mp4",
-    "language": "Español",
-    "video_id": "c21779d1460f8e7b9907455a20e47106"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "one night",
-    "publish_date": "2026-04-18",
-    "aspect_ratio": "vertical",
-    "track_id": "jqdflbihom",
-    "filename": "jqdflbihom_novasyndicate_mv_one_night_vertical.mp4",
-    "language": "English",
-    "video_id": "4cc7d5b1aa9d94dcb0d0d7677988d5a0"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Một đêm",
-    "publish_date": "2026-04-17",
-    "aspect_ratio": "vertical",
-    "track_id": "jqdflbihom",
-    "filename": "jqdflbihom_novasyndicate_mv_Một_đêm_vertical.mp4",
-    "language": "Việt",
-    "video_id": "cc574304d3a4e642b79ee7a5d5784c39"
   }
 ]
