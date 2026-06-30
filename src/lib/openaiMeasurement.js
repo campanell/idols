@@ -27,8 +27,14 @@ function ensureOaiqLoader() {
   const script = document.createElement("script");
   script.async = true;
   script.src = PIXEL_SDK_URL;
-  const firstScript = document.getElementsByTagName("script")[0];
-  firstScript?.parentNode?.insertBefore(script, firstScript);
+
+  const parent = document.head || document.body;
+  if (parent) {
+    parent.appendChild(script);
+  } else {
+    return false;
+  }
+
   return true;
 }
 
