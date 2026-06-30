@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import {
+  getOppref,
+  measureCheckoutStarted,
+} from '@/lib/openaiMeasurement';
 
 /**
  * Purpose:
@@ -23,6 +27,10 @@ const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
     setLoading(true);
     setError(null);
     try {
+      measureCheckoutStarted({ ctaVariantId });
+
+      const oppref = getOppref();
+
       // Send CTA variant ID context so backend can persist conversion attribution metadata.  ID is used to track the conversion message from data/membershipCtaVariants.json
       const response = await fetch('/api/stripe', {
         method: 'POST',
@@ -31,6 +39,7 @@ const CheckoutButton = ({ children, className, ctaVariantId, ...props }) => {
         },
         body: JSON.stringify({
           cta_variant_id: ctaVariantId ?? null,
+          oppref,
         }),
       });
 

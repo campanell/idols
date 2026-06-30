@@ -1,8 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import CheckoutButton from "./StripeCheckout";
+import { measureCheckoutCanceled } from "@/lib/openaiMeasurement";
 
 /**
  * Purpose:
@@ -15,6 +17,10 @@ import CheckoutButton from "./StripeCheckout";
  */
 
 export default function CancelPage() {
+  useEffect(() => {
+    measureCheckoutCanceled();
+  }, []);
+
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">
       <Card className="mx-auto w-full max-w-2xl">

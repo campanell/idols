@@ -9,11 +9,13 @@ import TermsOfService from "./pages/TermsOfService";
 import MembershipFaqPage from "./pages/MembershipFaqPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import Footer from "./components/Footer";
+import OpenAIPageViews from "./components/OpenAIPageViews";
 import "./index.css";
 
 function App() {
   return (
     <Router>
+      <OpenAIPageViews />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

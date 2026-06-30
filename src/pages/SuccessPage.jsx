@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { measureOrderCreated } from "@/lib/openaiMeasurement";
 
 /**
  * Purpose:
@@ -14,6 +16,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
  */
 
 export default function SuccessPage() {
+  const [searchParams] = useSearchParams();
+  const measuredRef = useRef(false);
+
+  useEffect(() => {
+    const sessionId = searchParams.get("session_id");
+    if (!sessionId || measuredRef.current) return;
+    measuredRef.current = true;
+    measureOrderCreated({ sessionId });
+  }, [searchParams]);
+
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">
       <Card className="mx-auto w-full max-w-2xl">

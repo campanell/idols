@@ -16,6 +16,8 @@ type Env = {
   STRIPE_PRICE_ID?: string;
   ENVIRONMENT?: string;
   APP_BASE_URL?: string;
+  OPENAI_PIXEL_ID?: string;
+  OPENAI_CAPI_KEY?: string;
 };
 
 let Stripe: typeof StripeConstructor | undefined;
@@ -27,6 +29,7 @@ type PagesContext = {
 
 type CheckoutRequestBody = {
   cta_variant_id?: string | null;
+  oppref?: string | null;
 };
 
 export async function onRequest(context: PagesContext): Promise<Response> {
@@ -109,6 +112,11 @@ export async function onRequest(context: PagesContext): Promise<Response> {
         ? requestBody.cta_variant_id.trim().slice(0, 120)
         : null;
 
+    const oppref =
+      typeof requestBody.oppref === "string"
+        ? requestBody.oppref.trim().slice(0, 500)
+        : null;
+
     if (!ctaVariantId) {
       console.warn("checkout-metadata-warning", {
         warning: "Missing cta_variant_id in /api/stripe request body.",
@@ -117,15 +125,19 @@ export async function onRequest(context: PagesContext): Promise<Response> {
       });
     }
 
+    const metadata: Record<string, string> = {};
+    if (ctaVariantId) metadata.cta_variant_id = ctaVariantId;
+    if (oppref) metadata.oppref = oppref;
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [{ price: priceId, quantity: 1 }],
       mode: "payment",
       customer_creation: "always",
-      success_url: `${baseUrl}/success`,
+      success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/cancel`,
       // Metadata enables downstream webhook analytics and attribution without custom storage.
-      metadata: ctaVariantId ? { cta_variant_id: ctaVariantId } : undefined,
+      metadata: Object.keys(metadata).length > 0 ? metadata : undefined,
     });
 
     return new Response(

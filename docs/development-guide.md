@@ -16,10 +16,13 @@
    CLOUDFLARE_ACCOUNT_ID=optional-rest-fallback
    CLOUDFLARE_API_TOKEN=optional-rest-fallback
    CLOUDFLARE_EMAIL_FROM=membership@idols4life.com
+   OPENAI_PIXEL_ID=<same as gptads:I4Lpixel_id>
+   OPENAI_CAPI_KEY=<gptads:I4Lconversion>
    ```
-3. Create `.env.local` for frontend build-time config:
+3. Create `.env.local` for frontend build-time config (optional — pixel ID can also come from `OPENAI_PIXEL_ID` via `/api/measurement-config` when using `wrangler pages dev`):
    ```dotenv
    VITE_CLOUDFLARE_STREAM_DOMAIN=customer-<your-stream-customer-id>.cloudflarestream.com
+   VITE_OPENAI_PIXEL_ID=<optional; same as OPENAI_PIXEL_ID for pure vite dev>
    ```
 4. Build the app:
    ```bash
@@ -115,7 +118,8 @@ Use Stripe test cards in Checkout for end-to-end behavior:
   - `CLOUDFLARE_API_TOKEN`
   - `SUPPORT_API_TOKEN` (if you use the support status API)
 - If Cloudflare shows that **environment variables are managed through Wrangler**, **plaintext** values for Pages Functions are read from **`wrangler.jsonc`** (`vars` and `env.production.vars`), not from dashboard text fields. Dashboard plaintext entries for those names can be ignored or overwritten on deploy.
-- Put **non-secret** Function configuration in `wrangler.jsonc` (e.g. `STRIPE_PRICE_ID`, `APP_BASE_URL`, `DISCORD_COMMUNITY_INVITE_URL`, `GENERIC_MEMBERSHIP_CARD_IMAGE_URL`, `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_EMAIL_FROM`). Use **`env.production.vars`** for live-site values (e.g. live `STRIPE_PRICE_ID` and `https://idols4life.com`).
+- Put **non-secret** Function configuration in `wrangler.jsonc` (e.g. `STRIPE_PRICE_ID`, `APP_BASE_URL`, `OPENAI_PIXEL_ID`, `DISCORD_COMMUNITY_INVITE_URL`, `GENERIC_MEMBERSHIP_CARD_IMAGE_URL`, `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_EMAIL_FROM`). Use **`env.production.vars`** for live-site values (e.g. live `STRIPE_PRICE_ID` and `https://idols4life.com`).
+- **Wrangler-managed Pages:** Dashboard plaintext env vars may be disabled. Runtime vars (including `OPENAI_PIXEL_ID`) live in `wrangler.jsonc`; secrets use `wrangler pages secret put`. The browser pixel reads `OPENAI_PIXEL_ID` at runtime from `/api/measurement-config` — you do **not** need `VITE_OPENAI_PIXEL_ID` in the Cloudflare dashboard.
 - Keep test and live Stripe variables separate:
   - test: `sk_test_*`, test `price_*`
   - live: `sk_live_*`, live `price_*`

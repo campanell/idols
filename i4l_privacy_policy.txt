@@ -1,6 +1,6 @@
 Privacy Policy
 
-Effective Date: March 1, 2025
+Effective Date: June 24, 2026
 
 This Privacy Policy describes how I4L Creative Studio (“we,” “us,” or “our”) collects, uses, and protects your information when you visit idols4life.com (the “Site”).
 
@@ -10,46 +10,80 @@ By using the Site, you agree to the terms of this Privacy Policy.
 
 1. Information We Collect
 
-We do not collect personal information from visitors who simply browse or view content on idols4life.com.
+Browsing and membership checkout
+
+We do not ask you to create an account or submit a contact form to browse the Site.
 
 We only collect limited personal information from individuals who subscribe to the Founder's Circle membership. This information is collected and stored by our payment provider, Stripe, and may include:
 - Email address
 - Phone number (if provided during checkout)
 
-We do not store or manage this information directly on idols4life.com.
+We do not store or manage payment card details on idols4life.com.
 
 Stripe securely handles all payment data and operates under its own Privacy Policy and terms. You can learn more about Stripe’s data practices by visiting: https://stripe.com/privacy
 
-We do not use cookies, tracking pixels, or third-party marketing analytics tools on idols4life.com.
+Advertising and conversion measurement (OpenAI Ads)
 
-However, our infrastructure provider, Cloudflare, collects basic technical data (such as IP addresses and browser types) as part of their standard security and performance analytics. We use this information only to help maintain the stability and safety of the Site.
+If you arrive on the Site from an OpenAI Ads campaign (for example, a promotion shown in ChatGPT), we use OpenAI’s advertising measurement tools to understand whether our ads are working and how visitors move through our membership funnel. This helps us improve marketing copy, creative choices, and community offerings — not to follow you around the internet.
+
+These tools may collect or receive:
+- Page views and basic interactions on idols4life.com (such as viewing the home page, starting checkout, or completing a purchase);
+- Technical data such as browser type, IP address, and page URL;
+- An advertising reference identifier (“oppref”) stored in a first-party cookie on idols4life.com when you land from an OpenAI ad, so we can attribute a later membership purchase to that visit;
+- On completed checkout, limited purchase-related data sent from our server to OpenAI (such as order identifier, amount, currency, and a hashed form of your email address when available) to confirm a conversion.
+
+We use OpenAI’s browser pixel and Conversions API for this purpose. OpenAI processes this data under its own terms and privacy policies. Learn more at: https://openai.com/policies/privacy-policy and https://developers.openai.com/ads/measurement-pixel
+
+What we do not do with advertising measurement:
+- We do not sell your personal information.
+- We do not use this data for unrelated third-party marketing lists.
+- We do not run cross-site “remarketing” campaigns that track you across unrelated websites and apps.
+- We do not use social ad networks, data brokers, or broad third-party analytics platforms on the Site.
+
+Infrastructure and security
+
+Our infrastructure provider, Cloudflare, collects basic technical data (such as IP addresses and browser types) as part of their standard security and performance services. We use this information to help maintain the stability and safety of the Site.
 
 2. How We Use Your Information
+
+Membership information (via Stripe)
 
 We use the limited personal information collected through Stripe (such as your email address) only for the following purposes:
 - To confirm your Founder's Circle membership;
 - To send you a welcome email and provide access to membership-related updates or content;
 - To respond to any inquiries you make directly.
 
-We do not use your information for advertising, profiling, or third-party marketing.
+We do not use your membership information for unrelated third-party marketing.
 
-In addition, technical data collected by Cloudflare is used strictly for:
+Advertising measurement (via OpenAI)
+
+We use OpenAI measurement data only to:
+- Measure how many people visit from our OpenAI ads and whether they start or complete Founder's Circle checkout;
+- Evaluate which messages and creatives resonate with our community;
+- Improve future campaigns on OpenAI’s advertising platform.
+
+We do not use this data to build a general-purpose advertising profile of you outside this measurement program.
+
+Infrastructure (via Cloudflare)
+
+Technical data collected by Cloudflare is used strictly for:
 - Monitoring site performance;
 - Preventing spam, fraud, or malicious activity;
 - Ensuring the security and reliability of the Site.
 
-We do not combine or associate Cloudflare analytics with individual user identities.
+We do not combine Cloudflare security logs with OpenAI ad measurement to create marketing profiles.
 
 3. Information Sharing and Disclosure
 
-We do not sell, rent, or share your personal information with third parties for marketing or advertising purposes.
+We do not sell, rent, or share your personal information with third parties for their independent marketing purposes.
 
 We may share limited information only under the following circumstances:
 - With our payment provider (Stripe): Your email and phone number (if provided) are securely handled by Stripe to process your Founder's Circle membership.
-- With infrastructure providers (e.g., Cloudflare): Technical data (such as IP addresses or browser headers) may be processed for the purpose of maintaining site security and performance.
+- With OpenAI (advertising measurement): When you interact with our Site after clicking an OpenAI ad, or when you complete a qualifying checkout, we or our systems may send conversion and technical data to OpenAI’s measurement endpoints so we can report and improve our ads on OpenAI’s platform. This sharing is limited to our idols4life.com funnel and Founder's Circle campaign measurement.
+- With infrastructure providers (e.g., Cloudflare): Technical data may be processed to maintain site security and performance.
 - When required by law: We may disclose information if legally required to do so — for example, in response to a court order, subpoena, or other legal process.
 
-We do not otherwise distribute or disclose your data, and we do not use third-party trackers, ad networks, or analytics platforms.
+We do not otherwise distribute or disclose your data to ad networks, data brokers, or unrelated analytics platforms.
 
 4. Data Security
 
@@ -57,42 +91,43 @@ We take reasonable measures to protect the security of your information.
 
 Personal information you provide during the Founder's Circle checkout process is collected and stored securely by Stripe, a trusted third-party payment processor that complies with leading industry standards, including PCI-DSS.
 
-We do not store sensitive personal data or payment details directly on idols4life.com.
+We do not store sensitive payment details directly on idols4life.com.
 
 In addition:
 - Our website infrastructure is protected by Cloudflare, which helps prevent malicious traffic and maintain uptime;
-- We do not operate a user database or authentication system at this time;
-- We do not store login credentials, passwords, or user profiles.
+- We do not operate a public user database or social login system at this time;
+- We do not store login credentials, passwords, or member profiles on the Site itself.
 
-While no system can guarantee complete security, we strive to minimize risk by collecting very little data and using established service providers for all sensitive operations.
+While no system can guarantee complete security, we strive to minimize risk by collecting only what we need and using established service providers for sensitive operations.
 
 5. Data Retention
 
-idols4life.com does not operate any servers or maintain its own data storage. The platform is built on a serverless infrastructure provided by Cloudflare.
+idols4life.com does not operate traditional application servers or maintain its own member database. The platform is built on serverless infrastructure provided by Cloudflare.
 
-We do not store personal data on our site. Any personal information related to your Founder's Circle membership — such as your email address or phone number — is collected and stored securely by **Stripe**, our payment processor.
+Membership records are retained by Stripe according to Stripe’s policies and our operational needs (support, tax, and legal obligations).
 
-We retain access to Stripe's records of your subscription status (e.g., active, canceled) only as long as necessary to:
-- Communicate with you about your membership,
-- Comply with applicable legal or tax obligations,
-- Resolve disputes, or
-- Enforce our Terms of Service.
+Advertising measurement data is retained by OpenAI according to OpenAI’s policies and our reporting needs for active campaigns. We retain only the minimum local records needed to operate checkout and membership support.
 
-If you cancel your Founder's Circle membership, we no longer receive updates from Stripe about your account, and we do not use or store your contact details.
+If you cancel your Founder's Circle membership, we no longer receive ongoing subscription updates from Stripe about your account for future billing purposes.
 
 6. Your Rights and Choices
 
-As a member or visitor of idols4life.com, you have choices and rights regarding your personal information.
+Founder's Circle members
 
-If you are a Founder's Circle member:
-- If you would like to request deletion of your membership data, please contact us at service@idols4life.com, and we will coordinate with Stripe to process your request, subject to any legal or tax-related retention requirements.
+If you would like to request deletion of your membership data held by Stripe, please contact us at service@idols4life.com, and we will coordinate with Stripe to process your request, subject to any legal or tax-related retention requirements.
 
-If you are a site visitor:
-- We do not collect personal data from casual browsing, and we do not use cookies or tracking tools — so there is no personal profile to delete or manage.
+Site visitors and advertising measurement
 
-We do not send marketing emails, and you will only be contacted for essential membership-related communication if you are part of the Founder's Circle.
+You can limit some measurement activity by:
+- Adjusting your browser settings to block or delete cookies (including first-party cookies such as those used for ad attribution on idols4life.com);
+- Using browser privacy features or extensions that block scripts, understanding this may affect Site functionality;
+- Avoiding checkout if you do not wish purchase-related conversion data to be reported for campaign measurement.
 
-If you have questions or concerns about your privacy, feel free to reach out to us anytime at service@idols4life.com.
+Because OpenAI processes part of this data under its own policies, you may also review OpenAI’s privacy resources and contact OpenAI regarding data processed in its advertising systems.
+
+We do not send unsolicited marketing emails. If you are a member, we contact you only for essential membership-related communication.
+
+If you have questions or concerns about your privacy, contact us at service@idols4life.com.
 
 7. Changes to This Privacy Policy
 

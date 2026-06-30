@@ -21,7 +21,7 @@ export default function TermsOfService() {
     <main className="p-4 sm:p-6 md:p-8 bg-gray-50 min-h-screen flex justify-center">
       <article className="bg-white rounded-xl p-6 shadow-md max-w-3xl w-full">
         <h1 className="mb-2 text-3xl font-bold text-black">Terms of Service</h1>
-        <p className="text-sm text-gray-500 mb-6">Effective Date: March 1, 2025</p>
+        <p className="text-sm text-gray-500 mb-6">Effective Date: June 24, 2026</p>
         <div className="whitespace-pre-line text-lg leading-relaxed text-gray-800">
           {normalizedTermsText}
         </div>

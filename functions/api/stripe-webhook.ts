@@ -20,9 +20,14 @@
  *   Ensures metadata strings stay within Stripe metadata size constraints.
  */
 
+import { sendOrderCreatedEvent } from "../lib/openaiCapi";
+
 type Env = {
+  APP_BASE_URL?: string;
   DISCORD_COMMUNITY_INVITE_URL?: string;
   GENERIC_MEMBERSHIP_CARD_IMAGE_URL?: string;
+  OPENAI_PIXEL_ID?: string;
+  OPENAI_CAPI_KEY?: string;
   EMAIL?: { send: (payload: unknown) => Promise<{ id?: string; messageId?: string }> };
   CLOUDFLARE_ACCOUNT_ID?: string;
   CLOUDFLARE_API_TOKEN?: string;
@@ -84,6 +89,8 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     const customerId = session.customer || null;
     const subscriptionId = session.subscription || null;
     const paymentStatus = session.payment_status || "unknown";
+    const sessionMetadata = (session.metadata || {}) as Record<string, string>;
+    const oppref = sessionMetadata.oppref || null;
 
     if (!customerEmail) {
       return new Response("Missing customer email", { status: 400 });
@@ -92,6 +99,32 @@ export async function onRequest(context: PagesContext): Promise<Response> {
     const card = createMembershipCard(session);
     const discordInvite =
       context.env.DISCORD_COMMUNITY_INVITE_URL || "https://discord.gg/4CZfurHb9b";
+
+    if (paymentStatus === "paid") {
+      const appBaseUrl = context.env.APP_BASE_URL || "https://idols4life.com";
+      const capiResult = await sendOrderCreatedEvent(
+        {
+          OPENAI_PIXEL_ID: context.env.OPENAI_PIXEL_ID,
+          OPENAI_CAPI_KEY: context.env.OPENAI_CAPI_KEY,
+        },
+        {
+          sessionId: String(session.id || ""),
+          amountTotal:
+            typeof session.amount_total === "number" ? session.amount_total : null,
+          currency: typeof session.currency === "string" ? session.currency : "usd",
+          oppref,
+          email: customerEmail,
+          sourceUrl: `${appBaseUrl}/success`,
+        },
+      );
+
+      console.log("openai-capi-order-created", {
+        ok: capiResult.ok,
+        skipped: capiResult.skipped || null,
+        status: capiResult.status || null,
+        sessionId: session.id || null,
+      });
+    }
 
     await upsertMembershipCardStatus(context, {
       customerId,
