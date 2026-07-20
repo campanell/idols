@@ -1,5 +1,75 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "魂轻走",
+    "publish_date": "2026-08-02",
+    "aspect_ratio": "vertical",
+    "track_id": "ayftggdjzs",
+    "filename": "ayftggdjzs_imperialprincess_mv_魂轻走_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "35c5b65462718256a58a5e685291328f"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "beyond dreams",
+    "publish_date": "2026-08-01",
+    "aspect_ratio": "vertical",
+    "track_id": "ayftggdjzs",
+    "filename": "ayftggdjzs_imperialprincess_mv_beyond_dreams_vertical.mp4",
+    "language": "English",
+    "video_id": "26477c118f3a83e00f2d5a87698c4717"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "心在燃烧",
+    "publish_date": "2026-07-31",
+    "aspect_ratio": "vertical",
+    "track_id": "zmyztjtkzn",
+    "filename": "zmyztjtkzn_pixiear_mv_心在燃烧_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "7b749dd11a1558b61d38573102c71d96"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Tim bừng cháy",
+    "publish_date": "2026-07-30",
+    "aspect_ratio": "vertical",
+    "track_id": "zmyztjtkzn",
+    "filename": "zmyztjtkzn_pixiear_mv_Tim_bừng_cháy_vertical.mp4",
+    "language": "Việt",
+    "video_id": "ae0f6f2d8e520eee2f4ba95623c8c42d"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Heart on fire",
+    "publish_date": "2026-07-29",
+    "aspect_ratio": "vertical",
+    "track_id": "zmyztjtkzn",
+    "filename": "zmyztjtkzn_pixiear_mv_Heart_on_fire_vertical.mp4",
+    "language": "English",
+    "video_id": "197e12a06b6a4d830f345181d686dfa7"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Corazón en fuego",
+    "publish_date": "2026-07-28",
+    "aspect_ratio": "vertical",
+    "track_id": "zmyztjtkzn",
+    "filename": "zmyztjtkzn_pixiear_mv_Corazón_en_fuego_vertical.mp4",
+    "language": "Español",
+    "video_id": "b250a6548b47fdbbad87d1c3325f03de"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Cœur en feu",
+    "publish_date": "2026-07-27",
+    "aspect_ratio": "vertical",
+    "track_id": "zmyztjtkzn",
+    "filename": "zmyztjtkzn_pixiear_mv_Cœur_en_feu_vertical.mp4",
+    "language": "Français",
+    "video_id": "1033032f30061b4fe513c5ba22ad55c5"
+  },
+  {
     "roster_idol": "Nova Syndicate",
     "song_title": "留在这里",
     "publish_date": "2026-07-26",
@@ -628,75 +698,5 @@
     "filename": "enkqkleabh_novasyndicate_mv_Cada_día_vertical.mp4",
     "language": "English",
     "video_id": "778d0309e672077a4ecf59a9332e5d4f"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "园中寂寂助凝神",
-    "publish_date": "2026-05-24",
-    "aspect_ratio": "vertical",
-    "track_id": "fnnzbdnvlb",
-    "filename": "fnnzbdnvlb_imperialprincess_mv_园中寂寂助凝神_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "ec305ae0c057a9206396666875f2bd7b"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "Orchid fragrance lingers in air",
-    "publish_date": "2026-05-23",
-    "aspect_ratio": "vertical",
-    "track_id": "fnnzbdnvlb",
-    "filename": "fnnzbdnvlb_imperialprincess_mv_Orchid_fragrance_lingers_in_air_vertical.mp4",
-    "language": "English",
-    "video_id": "0dc3e197b52d467f1cad2838e6c9df79"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "此处古雅亦安宁",
-    "publish_date": "2026-05-22",
-    "aspect_ratio": "vertical",
-    "track_id": "uiikheapgk",
-    "filename": "uiikheapgk_imperialprincess_mv_此处古雅亦安宁_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "8f30def4c4a13d0d0cbb845c139832cc"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "Beauty and culture hold peace",
-    "publish_date": "2026-05-21",
-    "aspect_ratio": "vertical",
-    "track_id": "uiikheapgk",
-    "filename": "uiikheapgk_imperialprincess_mv_Beauty_and_culture_hold_peace_vertical.mp4",
-    "language": "English",
-    "video_id": "bf96bbd43dd8688e705d9b2228786848"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "魔法小精灵",
-    "publish_date": "2026-05-20",
-    "aspect_ratio": "vertical",
-    "track_id": "kufctlfqiu",
-    "filename": "kufctlfqiu_pixiear_mv_魔法小精灵_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "8a8323b601e1657fdb81de8c775f8ab3"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Pixie phép màu",
-    "publish_date": "2026-05-19",
-    "aspect_ratio": "vertical",
-    "track_id": "kufctlfqiu",
-    "filename": "kufctlfqiu_pixiear_mv_Pixie_phép_màu_vertical.mp4",
-    "language": "Việt",
-    "video_id": "0b6fba0c42c386e085aa89b0cfb6925a"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Pixie magique",
-    "publish_date": "2026-05-18",
-    "aspect_ratio": "vertical",
-    "track_id": "kufctlfqiu",
-    "filename": "kufctlfqiu_pixiear_mv_Pixie_magique_vertical.mp4",
-    "language": "Français",
-    "video_id": "de117686bd2f3745703c364fd71d3e13"
   }
 ]
