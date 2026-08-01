@@ -1,5 +1,45 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "慢慢落笔",
+    "publish_date": "2026-08-16",
+    "aspect_ratio": "vertical",
+    "track_id": "mjpktyvxcr",
+    "filename": "mjpktyvxcr_imperialprincess_mv_慢慢落笔_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "63719b47ab28c30be2797eb1a5e4fcd3"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Elegance stands where words begin",
+    "publish_date": "2026-08-15",
+    "aspect_ratio": "vertical",
+    "track_id": "mjpktyvxcr",
+    "filename": "mjpktyvxcr_imperialprincess_mv_Elegance_stands_where_words_begin_vertical.mp4",
+    "language": "English",
+    "video_id": "f6bc9f5c2567d4f0221b98d24832e1c4"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "一别成嫁",
+    "publish_date": "2026-08-14",
+    "aspect_ratio": "vertical",
+    "track_id": "crwyrziogj",
+    "filename": "crwyrziogj_imperialprincess_mv_一别成嫁_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "bef1b6ab47c72dbb48ccce8f7a93ce45"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "grace wit virtue measured kindness",
+    "publish_date": "2026-08-13",
+    "aspect_ratio": "vertical",
+    "track_id": "crwyrziogj",
+    "filename": "crwyrziogj_imperialprincess_mv_grace_wit_virtue_measured_kindness_vertical.mp4",
+    "language": "English",
+    "video_id": "06354e3b7a0dac16da39268ef1c88c39"
+  },
+  {
     "roster_idol": "Nova Syndicate",
     "song_title": "造梦的人",
     "publish_date": "2026-08-12",
@@ -658,45 +698,5 @@
     "filename": "vffrlcbaqc_pixiear_mv_做你的女孩_vertical.mp4",
     "language": "中文（繁體）",
     "video_id": "80c97c9e2ea5bbf77f990c38e79975eb"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Sois ma fille",
-    "publish_date": "2026-06-07",
-    "aspect_ratio": "vertical",
-    "track_id": "vffrlcbaqc",
-    "filename": "vffrlcbaqc_pixiear_mv_Sois_ma_fille_vertical.mp4",
-    "language": "Français",
-    "video_id": "46fb66506b7a7f0cfb77a844e3225f56"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Sé tu chica",
-    "publish_date": "2026-06-06",
-    "aspect_ratio": "vertical",
-    "track_id": "vffrlcbaqc",
-    "filename": "vffrlcbaqc_pixiear_mv_Sé_tu_chica_vertical.mp4",
-    "language": "Español",
-    "video_id": "73033b0b498d24e8bc182324b96cc5a8"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Làm người yêu anh",
-    "publish_date": "2026-06-05",
-    "aspect_ratio": "vertical",
-    "track_id": "vffrlcbaqc",
-    "filename": "vffrlcbaqc_pixiear_mv_Làm_người_yêu_anh_vertical.mp4",
-    "language": "Việt",
-    "video_id": "892073199d190670085b173813634f1a"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "be your girl",
-    "publish_date": "2026-06-04",
-    "aspect_ratio": "vertical",
-    "track_id": "vffrlcbaqc",
-    "filename": "vffrlcbaqc_pixiear_mv_be_your_girl_vertical.mp4",
-    "language": "English",
-    "video_id": "fb35ce3f3d4ee33a11f8d3ce6cf2ddee"
   }
 ]
