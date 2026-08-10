@@ -1,5 +1,105 @@
 [
   {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "我的爱",
+    "publish_date": "2026-08-26",
+    "aspect_ratio": "vertical",
+    "track_id": "yuitkorejv",
+    "filename": "yuitkorejv_novasyndicate_mv_我的爱_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "40adc3a4422e91007b86822b0f83f9f1"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Tình yêu tôi",
+    "publish_date": "2026-08-25",
+    "aspect_ratio": "vertical",
+    "track_id": "yuitkorejv",
+    "filename": "yuitkorejv_novasyndicate_mv_Tình_yêu_tôi_vertical.mp4",
+    "language": "Việt",
+    "video_id": "9fab882d06c5924da7c3dca720731e65"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "My love",
+    "publish_date": "2026-08-24",
+    "aspect_ratio": "vertical",
+    "track_id": "yuitkorejv",
+    "filename": "yuitkorejv_novasyndicate_mv_My_love_vertical.mp4",
+    "language": "English",
+    "video_id": "d1487b35a2812acd494e55bac7037607"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Mon amour",
+    "publish_date": "2026-08-23",
+    "aspect_ratio": "vertical",
+    "track_id": "yuitkorejv",
+    "filename": "yuitkorejv_novasyndicate_mv_Mon_amour_vertical.mp4",
+    "language": "Français",
+    "video_id": "70d28584df240b40b69939f2accccd86"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Mi amor",
+    "publish_date": "2026-08-22",
+    "aspect_ratio": "vertical",
+    "track_id": "yuitkorejv",
+    "filename": "yuitkorejv_novasyndicate_mv_Mi_amor_vertical.mp4",
+    "language": "Español",
+    "video_id": "2a5a95c0d3dc4881b11f2e396785d766"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "飘向远方",
+    "publish_date": "2026-08-21",
+    "aspect_ratio": "vertical",
+    "track_id": "repilcnpbf",
+    "filename": "repilcnpbf_pixiear_mv_飘向远方_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "f26858b408d219018caa7b720531b6c6"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Trôi xa mãi",
+    "publish_date": "2026-08-20",
+    "aspect_ratio": "vertical",
+    "track_id": "repilcnpbf",
+    "filename": "repilcnpbf_pixiear_mv_Trôi_xa_mãi_vertical.mp4",
+    "language": "Việt",
+    "video_id": "14a23bb487f0271edeaf36bf69352e9d"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Je flotte au loin",
+    "publish_date": "2026-08-19",
+    "aspect_ratio": "vertical",
+    "track_id": "repilcnpbf",
+    "filename": "repilcnpbf_pixiear_mv_Je_flotte_au_loin_vertical.mp4",
+    "language": "Français",
+    "video_id": "df00b36ba3b34f04fdb0249cac70bdde"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Flotando lejos",
+    "publish_date": "2026-08-18",
+    "aspect_ratio": "vertical",
+    "track_id": "repilcnpbf",
+    "filename": "repilcnpbf_pixiear_mv_Flotando_lejos_vertical.mp4",
+    "language": "Español",
+    "video_id": "1b1daa7bbf7afa5398bd294528d95286"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Floating",
+    "publish_date": "2026-08-17",
+    "aspect_ratio": "vertical",
+    "track_id": "repilcnpbf",
+    "filename": "repilcnpbf_pixiear_mv_Floating_vertical.mp4",
+    "language": "English",
+    "video_id": "12e67c470f142b62314e8144320032f6"
+  },
+  {
     "roster_idol": "Imperial Princess",
     "song_title": "慢慢落笔",
     "publish_date": "2026-08-16",
@@ -598,105 +698,5 @@
     "filename": "rizuowlqqr_novasyndicate_mv_infatuation_(2026)_vertical.mp4",
     "language": "English",
     "video_id": "9839d3accbb8d77ea650f4a2eee708ee"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "fascination (2026)",
-    "publish_date": "2026-06-17",
-    "aspect_ratio": "vertical",
-    "track_id": "rizuowlqqr",
-    "filename": "rizuowlqqr_novasyndicate_mv_fascination_(2026)_vertical.mp4",
-    "language": "Français",
-    "video_id": "5968884d65d205801fa15277757d6e60"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "anh mê say (2026)",
-    "publish_date": "2026-06-16",
-    "aspect_ratio": "vertical",
-    "track_id": "rizuowlqqr",
-    "filename": "rizuowlqqr_novasyndicate_mv_anh_mê_say_(2026)_vertical.mp4",
-    "language": "Việt",
-    "video_id": "4b31db2e95adea5226e5d5154e19f236"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "谁问我心沉",
-    "publish_date": "2026-06-15",
-    "aspect_ratio": "vertical",
-    "track_id": "fwdtneqfzz",
-    "filename": "fwdtneqfzz_imperialprincess_mv_谁问我心沉_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "00813fc7a1fbf147391e14dcea9e5df0"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "Does anyone hear my heavy heart",
-    "publish_date": "2026-06-14",
-    "aspect_ratio": "vertical",
-    "track_id": "fwdtneqfzz",
-    "filename": "fwdtneqfzz_imperialprincess_mv_Does_anyone_hear_my_heavy_heart_vertical.mp4",
-    "language": "English",
-    "video_id": "180da9ab62efefb06d2fa7a682972ea2"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "我十五岁 (2026)",
-    "publish_date": "2026-06-13",
-    "aspect_ratio": "vertical",
-    "track_id": "zzbntdtutc",
-    "filename": "zzbntdtutc_pixiear_mv_我十五岁_(2026)_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "927388ce694c9702b9edc206987eec00"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tenía quince años (2026)",
-    "publish_date": "2026-06-12",
-    "aspect_ratio": "vertical",
-    "track_id": "zzbntdtutc",
-    "filename": "zzbntdtutc_pixiear_mv_Tenía_quince_años_(2026)_vertical.mp4",
-    "language": "Español",
-    "video_id": "23c1dc8a5e2accf7e4db4fa6f563ab8c"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "J’avais quinze ans (2026)",
-    "publish_date": "2026-06-11",
-    "aspect_ratio": "vertical",
-    "track_id": "zzbntdtutc",
-    "filename": "zzbntdtutc_pixiear_mv_J’avais_quinze_ans_(2026)_vertical.mp4",
-    "language": "Français",
-    "video_id": "5ec324391c77dacd2498e84c31e525f3"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "I was 15 (2026)",
-    "publish_date": "2026-06-10",
-    "aspect_ratio": "vertical",
-    "track_id": "zzbntdtutc",
-    "filename": "zzbntdtutc_pixiear_mv_I_was_15_(2026)_vertical.mp4",
-    "language": "English",
-    "video_id": "f3b5b4507a11763b5b4cd471753467e2"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Em mười lăm (2026)",
-    "publish_date": "2026-06-09",
-    "aspect_ratio": "vertical",
-    "track_id": "zzbntdtutc",
-    "filename": "zzbntdtutc_pixiear_mv_Em_mười_lăm_(2026)_vertical.mp4",
-    "language": "Việt",
-    "video_id": "f9724703b97e9fa7aeda7f26ff6d9903"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "做你的女孩",
-    "publish_date": "2026-06-08",
-    "aspect_ratio": "vertical",
-    "track_id": "vffrlcbaqc",
-    "filename": "vffrlcbaqc_pixiear_mv_做你的女孩_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "80c97c9e2ea5bbf77f990c38e79975eb"
   }
 ]
