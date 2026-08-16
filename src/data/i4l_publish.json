@@ -1,5 +1,105 @@
 [
   {
+    "roster_idol": "Pixie and AR",
+    "song_title": "你是我的爱使命",
+    "publish_date": "2026-09-05",
+    "aspect_ratio": "vertical",
+    "track_id": "mjxfophftq",
+    "filename": "mjxfophftq_pixiear_mv_你是我的爱使命_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "158e9913d1dc75bc15cf20d77e15c473"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Tu es ma mission d’amour",
+    "publish_date": "2026-09-04",
+    "aspect_ratio": "vertical",
+    "track_id": "mjxfophftq",
+    "filename": "mjxfophftq_pixiear_mv_Tu_es_ma_mission_d’amour_vertical.mp4",
+    "language": "Français",
+    "video_id": "85bfbd01e27fce9599f647d774e24dc0"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "my mission of love",
+    "publish_date": "2026-09-03",
+    "aspect_ratio": "vertical",
+    "track_id": "mjxfophftq",
+    "filename": "mjxfophftq_pixiear_mv_my_mission_of_love_vertical.mp4",
+    "language": "English",
+    "video_id": "07c0fa3fab3376a2f4e71365ca2a8303"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Eres mi misión de amor",
+    "publish_date": "2026-09-02",
+    "aspect_ratio": "vertical",
+    "track_id": "mjxfophftq",
+    "filename": "mjxfophftq_pixiear_mv_Eres_mi_misión_de_amor_vertical.mp4",
+    "language": "Español",
+    "video_id": "cdc115387d5f5b0b9052c5143cc047e3"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Em là sứ mệnh tình yêu của anh",
+    "publish_date": "2026-09-01",
+    "aspect_ratio": "vertical",
+    "track_id": "mjxfophftq",
+    "filename": "mjxfophftq_pixiear_mv_Em_là_sứ_mệnh_tình_yêu_của_anh_vertical.mp4",
+    "language": "Việt",
+    "video_id": "965e477b92d7e42962156ba6922e4dd5"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "尽情享受的时代",
+    "publish_date": "2026-08-31",
+    "aspect_ratio": "vertical",
+    "track_id": "rnwmjjiuhe",
+    "filename": "rnwmjjiuhe_novasyndicate_mv_尽情享受的时代_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "bd9da0773fc0c5b4df0e98940228d6be"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Our lives",
+    "publish_date": "2026-08-30",
+    "aspect_ratio": "vertical",
+    "track_id": "rnwmjjiuhe",
+    "filename": "rnwmjjiuhe_novasyndicate_mv_Our_lives_vertical.mp4",
+    "language": "English",
+    "video_id": "fe8ffc05280722f7f636d116e282d1d8"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Notre moment ici",
+    "publish_date": "2026-08-29",
+    "aspect_ratio": "vertical",
+    "track_id": "rnwmjjiuhe",
+    "filename": "rnwmjjiuhe_novasyndicate_mv_Notre_moment_ici_vertical.mp4",
+    "language": "Français",
+    "video_id": "5b5ece4d114ba784c651fffe6391695a"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Khoảnh khắc đời ta mong chờ",
+    "publish_date": "2026-08-28",
+    "aspect_ratio": "vertical",
+    "track_id": "rnwmjjiuhe",
+    "filename": "rnwmjjiuhe_novasyndicate_mv_Khoảnh_khắc_đời_ta_mong_chờ_vertical.mp4",
+    "language": "Việt",
+    "video_id": "ecdcdccf8d20569d0847028f47aab1e6"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "El tiempo de vivir",
+    "publish_date": "2026-08-27",
+    "aspect_ratio": "vertical",
+    "track_id": "rnwmjjiuhe",
+    "filename": "rnwmjjiuhe_novasyndicate_mv_El_tiempo_de_vivir_vertical.mp4",
+    "language": "Español",
+    "video_id": "be82953017627fb648d60a754f2ddb77"
+  },
+  {
     "roster_idol": "Nova Syndicate",
     "song_title": "我的爱",
     "publish_date": "2026-08-26",
@@ -598,105 +698,5 @@
     "filename": "ynrwugawbb_novasyndicate_mv_morning_love_vertical.mp4",
     "language": "English",
     "video_id": "0e72a3f9ec0190457f5e3e898f19b185"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Amour du matin",
-    "publish_date": "2026-06-27",
-    "aspect_ratio": "vertical",
-    "track_id": "ynrwugawbb",
-    "filename": "ynrwugawbb_novasyndicate_mv_Amour_du_matin_vertical.mp4",
-    "language": "Français",
-    "video_id": "6283370114a84f2b6f5c2380518abb8f"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Amor de mañana",
-    "publish_date": "2026-06-26",
-    "aspect_ratio": "vertical",
-    "track_id": "ynrwugawbb",
-    "filename": "ynrwugawbb_novasyndicate_mv_Amor_de_mañana_vertical.mp4",
-    "language": "Español",
-    "video_id": "07e3d56c1a081b41b0fb2b71b981018d"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "梦境乐园",
-    "publish_date": "2026-06-25",
-    "aspect_ratio": "vertical",
-    "track_id": "ojoqfxaewv",
-    "filename": "ojoqfxaewv_novasyndicate_mv_梦境乐园_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "fb2b65c8f49e027382e6badf585bd15e"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Tierra de sueños",
-    "publish_date": "2026-06-24",
-    "aspect_ratio": "vertical",
-    "track_id": "ojoqfxaewv",
-    "filename": "ojoqfxaewv_novasyndicate_mv_Tierra_de_sueños_vertical.mp4",
-    "language": "Español",
-    "video_id": "7426d7b9d27047787718712753a1426a"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Pays des rêves",
-    "publish_date": "2026-06-23",
-    "aspect_ratio": "vertical",
-    "track_id": "ojoqfxaewv",
-    "filename": "ojoqfxaewv_novasyndicate_mv_Pays_des_rêves_vertical.mp4",
-    "language": "Français",
-    "video_id": "cec404c4ff84fcdac3c2c3e3061fb6ec"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Miền mơ",
-    "publish_date": "2026-06-22",
-    "aspect_ratio": "vertical",
-    "track_id": "ojoqfxaewv",
-    "filename": "ojoqfxaewv_novasyndicate_mv_Miền_mơ_vertical.mp4",
-    "language": "Việt",
-    "video_id": "d2a9ebec2310a36b38aa7adfb94e070f"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Dreamland",
-    "publish_date": "2026-06-21",
-    "aspect_ratio": "vertical",
-    "track_id": "ojoqfxaewv",
-    "filename": "ojoqfxaewv_novasyndicate_mv_Dreamland_vertical.mp4",
-    "language": "English",
-    "video_id": "8dc43cfbc55b6c22e2f16a5a70c82018"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "我的迷恋 (2026)",
-    "publish_date": "2026-06-20",
-    "aspect_ratio": "vertical",
-    "track_id": "rizuowlqqr",
-    "filename": "rizuowlqqr_novasyndicate_mv_我的迷恋_(2026)_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "d8adb33ee3b5fb388d6a8843965ad5fb"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "obsesión (2026)",
-    "publish_date": "2026-06-19",
-    "aspect_ratio": "vertical",
-    "track_id": "rizuowlqqr",
-    "filename": "rizuowlqqr_novasyndicate_mv_obsesión_(2026)_vertical.mp4",
-    "language": "Español",
-    "video_id": "280e255e84109c5379fe5e98961a24fd"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "infatuation (2026)",
-    "publish_date": "2026-06-18",
-    "aspect_ratio": "vertical",
-    "track_id": "rizuowlqqr",
-    "filename": "rizuowlqqr_novasyndicate_mv_infatuation_(2026)_vertical.mp4",
-    "language": "English",
-    "video_id": "9839d3accbb8d77ea650f4a2eee708ee"
   }
 ]
