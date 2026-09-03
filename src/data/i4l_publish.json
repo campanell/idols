@@ -1,5 +1,65 @@
 [
   {
+    "roster_idol": "Pixie and AR",
+    "song_title": "我们的秘密",
+    "publish_date": "2026-09-18",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_我们的秘密_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "0240e5011df411cab9ce026cc2003ed8"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Nuestro secretito",
+    "publish_date": "2026-09-17",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_Nuestro_secretito_vertical.mp4",
+    "language": "Español",
+    "video_id": "f662e8a9c41be25374fbf19487b5e1c5"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Notre petit secret",
+    "publish_date": "2026-09-16",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_Notre_petit_secret_vertical.mp4",
+    "language": "Français",
+    "video_id": "9d91ce9c61e83e833da4079c1491cb30"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "My little secret (Dani Nice remix)",
+    "publish_date": "2026-09-15",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_My_little_secret_(Dani_Nice_remix)_vertical.mp4",
+    "language": "English",
+    "video_id": "dca4d9648c030d02957bd82a8b286261"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "My little secret",
+    "publish_date": "2026-09-14",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_My_little_secret_vertical.mp4",
+    "language": "English",
+    "video_id": "e4e0c7e50758870737b7407cd4af8ae6"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Bí mật của đôi ta",
+    "publish_date": "2026-09-13",
+    "aspect_ratio": "vertical",
+    "track_id": "odqkdjmpge",
+    "filename": "odqkdjmpge_pixiear_mv_Bí_mật_của_đôi_ta_vertical.mp4",
+    "language": "Việt",
+    "video_id": "150fc15c5b0725f961fb95f5b0064c8f"
+  },
+  {
     "roster_idol": "Imperial Princess",
     "song_title": "金枝映日明",
     "publish_date": "2026-09-12",
@@ -638,65 +698,5 @@
     "filename": "xkhhulftau_pixiear_mv_You_and_me_vertical.mp4",
     "language": "English",
     "video_id": "0554c6451a83c0e0f2d495a59f5e162a"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tú y yo",
-    "publish_date": "2026-07-10",
-    "aspect_ratio": "vertical",
-    "track_id": "xkhhulftau",
-    "filename": "xkhhulftau_pixiear_mv_Tú_y_yo_vertical.mp4",
-    "language": "Español",
-    "video_id": "0c35202628b957c533585e41a6d4544a"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Toi et moi",
-    "publish_date": "2026-07-09",
-    "aspect_ratio": "vertical",
-    "track_id": "xkhhulftau",
-    "filename": "xkhhulftau_pixiear_mv_Toi_et_moi_vertical.mp4",
-    "language": "Français",
-    "video_id": "ccc76bee38054391680a467becb4be89"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Em và anh",
-    "publish_date": "2026-07-08",
-    "aspect_ratio": "vertical",
-    "track_id": "xkhhulftau",
-    "filename": "xkhhulftau_pixiear_mv_Em_và_anh_vertical.mp4",
-    "language": "Việt",
-    "video_id": "7f1b2b6d6758656c751538e4115cb9ef"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "回到爱里",
-    "publish_date": "2026-07-07",
-    "aspect_ratio": "vertical",
-    "track_id": "xaiylzoyex",
-    "filename": "xaiylzoyex_pixiear_mv_回到爱里_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "f2e6e047481d241716f8c2ff8a6c86dd"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Về lại yêu thương",
-    "publish_date": "2026-07-06",
-    "aspect_ratio": "vertical",
-    "track_id": "xaiylzoyex",
-    "filename": "xaiylzoyex_pixiear_mv_Về_lại_yêu_thương_vertical.mp4",
-    "language": "Việt",
-    "video_id": "baa3064ae7061229a6a4248b7b5e38eb"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Retour à l’amour",
-    "publish_date": "2026-07-05",
-    "aspect_ratio": "vertical",
-    "track_id": "xaiylzoyex",
-    "filename": "xaiylzoyex_pixiear_mv_Retour_à_l’amour_vertical.mp4",
-    "language": "Français",
-    "video_id": "a8808a8f1e9f6465a686622270dceca5"
   }
 ]
