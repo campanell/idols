@@ -1,5 +1,75 @@
 [
   {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "我想着你",
+    "publish_date": "2026-09-25",
+    "aspect_ratio": "vertical",
+    "track_id": "njljsgkxdx",
+    "filename": "njljsgkxdx_novasyndicate_mv_我想着你_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "d2fa8a0aea7838970a141a7b92c91943"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Pienso en ti",
+    "publish_date": "2026-09-24",
+    "aspect_ratio": "vertical",
+    "track_id": "njljsgkxdx",
+    "filename": "njljsgkxdx_novasyndicate_mv_Pienso_en_ti_vertical.mp4",
+    "language": "Español",
+    "video_id": "91ef4960f1d44487fd83d895ad6171e6"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Je pense à toi",
+    "publish_date": "2026-09-23",
+    "aspect_ratio": "vertical",
+    "track_id": "njljsgkxdx",
+    "filename": "njljsgkxdx_novasyndicate_mv_Je_pense_à_toi_vertical.mp4",
+    "language": "Français",
+    "video_id": "efb7debcd5248390dc629aef10de5b5c"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "I think about you",
+    "publish_date": "2026-09-22",
+    "aspect_ratio": "vertical",
+    "track_id": "njljsgkxdx",
+    "filename": "njljsgkxdx_novasyndicate_mv_I_think_about_you_vertical.mp4",
+    "language": "English",
+    "video_id": "3fd663c56d616a8af87b009a4dd5c334"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Em nghĩ về anh",
+    "publish_date": "2026-09-21",
+    "aspect_ratio": "vertical",
+    "track_id": "njljsgkxdx",
+    "filename": "njljsgkxdx_novasyndicate_mv_Em_nghĩ_về_anh_vertical.mp4",
+    "language": "Việt",
+    "video_id": "f293588bce7e37e5629dd0aab4df6ec7"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "一曲 又一曲",
+    "publish_date": "2026-09-20",
+    "aspect_ratio": "vertical",
+    "track_id": "mjdqqbdywm",
+    "filename": "mjdqqbdywm_imperialprincess_mv_一曲_又一曲_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "7fa2b439c51b5bb147c192b494b76bc0"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Each melody breeds more questions",
+    "publish_date": "2026-09-19",
+    "aspect_ratio": "vertical",
+    "track_id": "mjdqqbdywm",
+    "filename": "mjdqqbdywm_imperialprincess_mv_Each_melody_breeds_more_questions_vertical.mp4",
+    "language": "English",
+    "video_id": "cf4b546c6cc4a0f11ecc21085783950f"
+  },
+  {
     "roster_idol": "Pixie and AR",
     "song_title": "我们的秘密",
     "publish_date": "2026-09-18",
@@ -628,75 +698,5 @@
     "filename": "tzlijfyria_novasyndicate_mv_Nhịp_tim_vertical.mp4",
     "language": "Việt",
     "video_id": "2ab03d275ab4e228b7155085108c8ad5"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Latido",
-    "publish_date": "2026-07-17",
-    "aspect_ratio": "vertical",
-    "track_id": "tzlijfyria",
-    "filename": "tzlijfyria_novasyndicate_mv_Latido_vertical.mp4",
-    "language": "Español",
-    "video_id": "12b19f056d5a92d3783fbaa44e478d2d"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Heartbeat",
-    "publish_date": "2026-07-16",
-    "aspect_ratio": "vertical",
-    "track_id": "tzlijfyria",
-    "filename": "tzlijfyria_novasyndicate_mv_Heartbeat_vertical.mp4",
-    "language": "English",
-    "video_id": "a13956b1e8612574e4435cb09979aad8"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Battement",
-    "publish_date": "2026-07-15",
-    "aspect_ratio": "vertical",
-    "track_id": "tzlijfyria",
-    "filename": "tzlijfyria_novasyndicate_mv_Battement_vertical.mp4",
-    "language": "Français",
-    "video_id": "404e329aa4b1689bb4d4d4cf262cf741"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "言外繫人心",
-    "publish_date": "2026-07-14",
-    "aspect_ratio": "vertical",
-    "track_id": "wadfrqvjhl",
-    "filename": "wadfrqvjhl_imperialprincess_mv_言外繫人心_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "af853c9e16cb268c4ee8e2cf0cbf7e19"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "Between words she ties hearts",
-    "publish_date": "2026-07-13",
-    "aspect_ratio": "vertical",
-    "track_id": "wadfrqvjhl",
-    "filename": "wadfrqvjhl_imperialprincess_mv_Between_words_she_ties_hearts_vertical.mp4",
-    "language": "English",
-    "video_id": "45fbf91505bb5b74d898347d1be85d61"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "你和我",
-    "publish_date": "2026-07-12",
-    "aspect_ratio": "vertical",
-    "track_id": "xkhhulftau",
-    "filename": "xkhhulftau_pixiear_mv_你和我_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "8759708e00f10a9651e8fadfcfa3686d"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "You and me",
-    "publish_date": "2026-07-11",
-    "aspect_ratio": "vertical",
-    "track_id": "xkhhulftau",
-    "filename": "xkhhulftau_pixiear_mv_You_and_me_vertical.mp4",
-    "language": "English",
-    "video_id": "0554c6451a83c0e0f2d495a59f5e162a"
   }
 ]
