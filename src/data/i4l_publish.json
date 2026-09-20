@@ -1,5 +1,75 @@
 [
   {
+    "roster_idol": "Imperial Princess",
+    "song_title": "家国重",
+    "publish_date": "2026-10-02",
+    "aspect_ratio": "vertical",
+    "track_id": "fpilybsste",
+    "filename": "fpilybsste_imperialprincess_mv_家国重_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "36e6e10ff84fdb8aa9e86cebca07d8f4"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "Dynasty weight",
+    "publish_date": "2026-10-01",
+    "aspect_ratio": "vertical",
+    "track_id": "fpilybsste",
+    "filename": "fpilybsste_imperialprincess_mv_Dynasty_weight_vertical.mp4",
+    "language": "English",
+    "video_id": "7c27b38e68237e75b0d0a8b5369b2ab5"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "何时",
+    "publish_date": "2026-09-30",
+    "aspect_ratio": "vertical",
+    "track_id": "uymtzkkwzb",
+    "filename": "uymtzkkwzb_pixiear_mv_何时_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "eb4825db0b3b9e33d713adabe95634da"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "when will",
+    "publish_date": "2026-09-29",
+    "aspect_ratio": "vertical",
+    "track_id": "uymtzkkwzb",
+    "filename": "uymtzkkwzb_pixiear_mv_when_will_vertical.mp4",
+    "language": "English",
+    "video_id": "0a7510006349a572aabb7b78a3965ec7"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Quand est-ce",
+    "publish_date": "2026-09-28",
+    "aspect_ratio": "vertical",
+    "track_id": "uymtzkkwzb",
+    "filename": "uymtzkkwzb_pixiear_mv_Quand_est-ce_vertical.mp4",
+    "language": "Français",
+    "video_id": "8735bc8f17d06ae572231b5e4e319099"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "Khi nào",
+    "publish_date": "2026-09-27",
+    "aspect_ratio": "vertical",
+    "track_id": "uymtzkkwzb",
+    "filename": "uymtzkkwzb_pixiear_mv_Khi_nào_vertical.mp4",
+    "language": "Việt",
+    "video_id": "3ee64a872c115df3395226d92e3750d1"
+  },
+  {
+    "roster_idol": "Pixie and AR",
+    "song_title": "¿Cuándo",
+    "publish_date": "2026-09-26",
+    "aspect_ratio": "vertical",
+    "track_id": "uymtzkkwzb",
+    "filename": "uymtzkkwzb_pixiear_mv_¿Cuándo_vertical.mp4",
+    "language": "Español",
+    "video_id": "768e7029ad6002e97a8c8e43506c9f29"
+  },
+  {
     "roster_idol": "Nova Syndicate",
     "song_title": "我想着你",
     "publish_date": "2026-09-25",
@@ -628,75 +698,5 @@
     "filename": "vjuuuyoekr_novasyndicate_mv_Stay_here_vertical.mp4",
     "language": "English",
     "video_id": "e0c456fc44c394976850ecc13db8ad74"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Reste ici",
-    "publish_date": "2026-07-24",
-    "aspect_ratio": "vertical",
-    "track_id": "vjuuuyoekr",
-    "filename": "vjuuuyoekr_novasyndicate_mv_Reste_ici_vertical.mp4",
-    "language": "Français",
-    "video_id": "75f2d88e9f9d06696369d912e11a8ad4"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Quédate aquí",
-    "publish_date": "2026-07-23",
-    "aspect_ratio": "vertical",
-    "track_id": "vjuuuyoekr",
-    "filename": "vjuuuyoekr_novasyndicate_mv_Quédate_aquí_vertical.mp4",
-    "language": "Español",
-    "video_id": "5e68b2f57ad810a6beefe1fb1701e9fb"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Ở lại đây",
-    "publish_date": "2026-07-22",
-    "aspect_ratio": "vertical",
-    "track_id": "vjuuuyoekr",
-    "filename": "vjuuuyoekr_novasyndicate_mv_Ở_lại_đây_vertical.mp4",
-    "language": "Việt",
-    "video_id": "f6142718c1d6dba0872f34057f9b18a5"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "荷影微微凉",
-    "publish_date": "2026-07-21",
-    "aspect_ratio": "vertical",
-    "track_id": "rwfrbnzcxa",
-    "filename": "rwfrbnzcxa_imperialprincess_mv_荷影微微凉_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "22389150a4159d024dd6435e511b8a45"
-  },
-  {
-    "roster_idol": "Imperial Princess",
-    "song_title": "Lotus leaves hush the wind",
-    "publish_date": "2026-07-20",
-    "aspect_ratio": "vertical",
-    "track_id": "rwfrbnzcxa",
-    "filename": "rwfrbnzcxa_imperialprincess_mv_Lotus_leaves_hush_the_wind_vertical.mp4",
-    "language": "English",
-    "video_id": "d3f3fbe1492dc5f5edf3c99ff22310f9"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "心跳",
-    "publish_date": "2026-07-19",
-    "aspect_ratio": "vertical",
-    "track_id": "tzlijfyria",
-    "filename": "tzlijfyria_novasyndicate_mv_心跳_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "a3e604beb9a4e8cbb4f086089ec38034"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Nhịp tim",
-    "publish_date": "2026-07-18",
-    "aspect_ratio": "vertical",
-    "track_id": "tzlijfyria",
-    "filename": "tzlijfyria_novasyndicate_mv_Nhịp_tim_vertical.mp4",
-    "language": "Việt",
-    "video_id": "2ab03d275ab4e228b7155085108c8ad5"
   }
 ]
