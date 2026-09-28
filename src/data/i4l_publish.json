@@ -1,5 +1,75 @@
 [
   {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "让我们相信",
+    "publish_date": "2026-10-09",
+    "aspect_ratio": "vertical",
+    "track_id": "liadekwifr",
+    "filename": "liadekwifr_novasyndicate_mv_让我们相信_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "44c408e441790351b24a9478102bf8d0"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Ta hãy tin",
+    "publish_date": "2026-10-08",
+    "aspect_ratio": "vertical",
+    "track_id": "liadekwifr",
+    "filename": "liadekwifr_novasyndicate_mv_Ta_hãy_tin_vertical.mp4",
+    "language": "Việt",
+    "video_id": "cef413d7fd18f3e6c695db7c2c4bc05c"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Let's believe",
+    "publish_date": "2026-10-07",
+    "aspect_ratio": "vertical",
+    "track_id": "liadekwifr",
+    "filename": "liadekwifr_novasyndicate_mv_Let's_believe_vertical.mp4",
+    "language": "English",
+    "video_id": "39251752fcb4b557b724312e03b97d33"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Croyons-y",
+    "publish_date": "2026-10-06",
+    "aspect_ratio": "vertical",
+    "track_id": "liadekwifr",
+    "filename": "liadekwifr_novasyndicate_mv_Croyons-y_vertical.mp4",
+    "language": "Français",
+    "video_id": "7f679b966a88679159f1434e77d325b4"
+  },
+  {
+    "roster_idol": "Nova Syndicate",
+    "song_title": "Creámos",
+    "publish_date": "2026-10-05",
+    "aspect_ratio": "vertical",
+    "track_id": "liadekwifr",
+    "filename": "liadekwifr_novasyndicate_mv_Creámos_vertical.mp4",
+    "language": "Español",
+    "video_id": "75de51c0a3b8a4478205994176642646"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "一言起",
+    "publish_date": "2026-10-04",
+    "aspect_ratio": "vertical",
+    "track_id": "dbhfbzicxm",
+    "filename": "dbhfbzicxm_imperialprincess_mv_一言起_vertical.mp4",
+    "language": "中文（繁體）",
+    "video_id": "20b55788f4ce5b528338d3994ffb78a2"
+  },
+  {
+    "roster_idol": "Imperial Princess",
+    "song_title": "With one word",
+    "publish_date": "2026-10-03",
+    "aspect_ratio": "vertical",
+    "track_id": "dbhfbzicxm",
+    "filename": "dbhfbzicxm_imperialprincess_mv_With_one_word_vertical.mp4",
+    "language": "English",
+    "video_id": "1273b8584999b384066d01fd96c552fd"
+  },
+  {
     "roster_idol": "Imperial Princess",
     "song_title": "家国重",
     "publish_date": "2026-10-02",
@@ -628,75 +698,5 @@
     "filename": "ayftggdjzs_imperialprincess_mv_beyond_dreams_vertical.mp4",
     "language": "English",
     "video_id": "26477c118f3a83e00f2d5a87698c4717"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "心在燃烧",
-    "publish_date": "2026-07-31",
-    "aspect_ratio": "vertical",
-    "track_id": "zmyztjtkzn",
-    "filename": "zmyztjtkzn_pixiear_mv_心在燃烧_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "7b749dd11a1558b61d38573102c71d96"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Tim bừng cháy",
-    "publish_date": "2026-07-30",
-    "aspect_ratio": "vertical",
-    "track_id": "zmyztjtkzn",
-    "filename": "zmyztjtkzn_pixiear_mv_Tim_bừng_cháy_vertical.mp4",
-    "language": "Việt",
-    "video_id": "ae0f6f2d8e520eee2f4ba95623c8c42d"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Heart on fire",
-    "publish_date": "2026-07-29",
-    "aspect_ratio": "vertical",
-    "track_id": "zmyztjtkzn",
-    "filename": "zmyztjtkzn_pixiear_mv_Heart_on_fire_vertical.mp4",
-    "language": "English",
-    "video_id": "197e12a06b6a4d830f345181d686dfa7"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Corazón en fuego",
-    "publish_date": "2026-07-28",
-    "aspect_ratio": "vertical",
-    "track_id": "zmyztjtkzn",
-    "filename": "zmyztjtkzn_pixiear_mv_Corazón_en_fuego_vertical.mp4",
-    "language": "Español",
-    "video_id": "b250a6548b47fdbbad87d1c3325f03de"
-  },
-  {
-    "roster_idol": "Pixie and AR",
-    "song_title": "Cœur en feu",
-    "publish_date": "2026-07-27",
-    "aspect_ratio": "vertical",
-    "track_id": "zmyztjtkzn",
-    "filename": "zmyztjtkzn_pixiear_mv_Cœur_en_feu_vertical.mp4",
-    "language": "Français",
-    "video_id": "1033032f30061b4fe513c5ba22ad55c5"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "留在这里",
-    "publish_date": "2026-07-26",
-    "aspect_ratio": "vertical",
-    "track_id": "vjuuuyoekr",
-    "filename": "vjuuuyoekr_novasyndicate_mv_留在这里_vertical.mp4",
-    "language": "中文（繁體）",
-    "video_id": "00cb59dae89266c1b9d055834b28acfd"
-  },
-  {
-    "roster_idol": "Nova Syndicate",
-    "song_title": "Stay here",
-    "publish_date": "2026-07-25",
-    "aspect_ratio": "vertical",
-    "track_id": "vjuuuyoekr",
-    "filename": "vjuuuyoekr_novasyndicate_mv_Stay_here_vertical.mp4",
-    "language": "English",
-    "video_id": "e0c456fc44c394976850ecc13db8ad74"
   }
 ]
