@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
 import videoData from "../data/i4l_publish.json";
-import MembershipCTA from "../components/MembershipCTA";
 import { CLOUDFLARE_STREAM_DOMAIN_FALLBACK } from "@/config/cloudflareStreamDomain";
 
 /**
  * Purpose:
  * Renders the home feed of currently publishable vertical videos and
- * pairs each video with metadata plus the membership CTA rail.
+ * pairs each video with metadata.
  *
  * Important functions:
  * - VideoPlayer({ videoId }):
  *   Builds the Cloudflare Stream iframe URL and renders the embedded player.
  * - Home():
  *   Filters scheduled video data for today's visible feed and renders
- *   responsive video cards with checkout entry points.
+ *   responsive video cards with roster metadata.
  */
 
 const today = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
@@ -69,24 +68,18 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start md:gap-6">
-                <div className="min-w-0 text-sm text-gray-700">
-                  <div>
-                    <strong>{video.roster_idol}</strong>
-                  </div>
-                  <div>
-                    <strong>Title:</strong> {video.song_title}
-                  </div>
-                  <div>
-                    <strong>Publish Date:</strong> {video.publish_date}
-                  </div>
-                  <div>
-                    <strong>Language:</strong> {video.language}
-                  </div>
+              <div className="min-w-0 text-sm text-gray-700">
+                <div>
+                  <strong>{video.roster_idol}</strong>
                 </div>
-                <div className="min-w-0">
-                  {/* Membership rail sits beside metadata on md+ screens for quicker checkout entry. */}
-                  <MembershipCTA videoId={video.video_id} language="en" />
+                <div>
+                  <strong>Title:</strong> {video.song_title}
+                </div>
+                <div>
+                  <strong>Publish Date:</strong> {video.publish_date}
+                </div>
+                <div>
+                  <strong>Language:</strong> {video.language}
                 </div>
               </div>
             </div>
